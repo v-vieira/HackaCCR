@@ -1,0 +1,2868 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" src="ViaSul_files/analytics.js"></script><script type="text/javascript" async="" src="ViaSul_files/recaptcha__pt_br.js"></script><script async="" src="ViaSul_files/gtm.js"></script><script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-TZXVJMC');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		
+        <meta name="title">
+        <meta name="keywords">
+        <meta name="description">
+
+		<link rel="shortcut icon" href="http://www.ccrviasul.com.br/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://www.ccrviasul.com.br/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="ViaSul_files/main.css">
+
+        
+    <link rel="stylesheet" href="ViaSul_files/internals.css">
+    <link rel="stylesheet" href="ViaSul_files/services.css">
+    
+    <link rel="stylesheet" href="ViaSul_files/station-attendance.css">
+
+
+
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="/Scripts/src/libs/IE8.js">
+			<link rel="stylesheet" href="/Content/Styles/ie.css">
+		<![endif]-->
+
+		<!--
+			<script type="text/javascript" src="/Scripts/src/libs/modernizr-2.6.1.min.js"></script>
+			<script type="text/javascript" src="/Scripts/src/libs/selectivizr-min.js"></script>
+		-->
+		<script src="ViaSul_files/modernizr.js"></script>
+		<script src="ViaSul_files/selectivizr-min.js"></script>
+		
+        <script src="ViaSul_files/api.js" type="text/javascript"></script>
+
+		<script>
+			window.Modernizr || document.write('<script src="/Scripts/src/libs/modernizr-2.6.2.min.js"><\/script>');
+		</script>
+
+        
+    
+    <script type="text/javascript" src="ViaSul_files/PluginDetect_WMP.js"></script>
+
+        
+    
+
+	<style></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services" src="ViaSul_files/services.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/supportMenu" src="ViaSul_files/supportMenu.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/occurrences" src="ViaSul_files/occurrences.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/trafficFlow" src="ViaSul_files/trafficFlow.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/pmv" src="ViaSul_files/pmv.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/customScroll" src="ViaSul_files/customScroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/modal" src="ViaSul_files/modal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/cookies" src="ViaSul_files/cookies.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/marquee" src="ViaSul_files/marquee.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/event.drag" src="ViaSul_files/event.js"></script></head>
+<body class="attendance-container internal  viasul">
+        <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZXVJMC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+	<header>
+    <nav class="support-menu no-languages">
+        <div class="wrap">
+            <ul>
+                <li><a href="http://www.grupoccr.com.br/" target="_blank" class="ccr">Site CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/sobre/" target="_blank">Sobre a CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/empresas/" target="_blank">Empresas do Grupo</a></li>
+                <li><a href="http://ri.ccr.com.br/" target="_blank">Relações com Investidores</a></li>
+                    <li><a href="http://www.ccrviasul.com.br/ri" class="grey-button">Relação com Investidores ViaSul</a></li>
+                <li><a href="http://www.grupoccr.com.br/responsabilidade/" target="_blank">Responsabilidade Corporativa</a></li>
+                    <li class="jobs"><a href="https://jobs.kenoby.com/grupoccr" class="jobs">Trabalhe Conosco</a></li>
+                <li class="languages">
+                    <ul>
+                            <li>
+                                <a href="http://www.ccrviasul.com.br/" class="por">Por <span>▼</span></a>
+                            </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="black-header">
+        <div class="wrap">
+            <nav class="expand-menu">
+	<div class="content">
+		<a href="http://www.ccrviasul.com.br/">
+			<h1 style="color: rgb(86, 86, 86);"><b>CCR</b> ViaSul</h1>
+		</a>
+	</div>
+</nav>
+<a class="expand-button">Outras concessionárias<span>▼</span></a>
+<ul class="concessionaries">
+            <li><a href="http://www.novadutra.com.br/" target="_blank"><b>CCR</b> NovaDutra</a></li>
+            <li><a href="http://www.rodoviadoslagos.com.br/" target="_blank"><b>CCR</b> ViaLagos</a></li>
+            <li><a href="http://www.rodonorte.com.br/" target="_blank"><b>CCR</b> RodoNorte</a></li>
+            <li><a href="http://www.autoban.com.br/" target="_blank"><b>CCR</b> AutoBAn</a></li>
+            <li><a href="http://www.viaoeste.com.br/" target="_blank"><b>CCR</b> ViaOeste</a></li>
+            <li><a href="http://www.rodoaneloeste.com.br/" target="_blank"><b>CCR</b> RodoAnel</a></li>
+            <li><a href="http://www.spvias.com.br/" target="_blank"><b>CCR</b> SPVias</a></li>
+            <li><a href="http://www.msvia.com.br/" target="_blank"><b>CCR</b> MSVia</a></li>
+	<li><a class="other-portals">Outras concessionárias<span>▲</span></a></li>
+</ul>
+
+                <h3>Veja abaixo as condições da rodovia</h3>
+                <div id="mini-map"><div class="occurrence" style="left: 368px; top: 61px;"><a class="icon orange"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-386</h4><br><p><b>Sentido:</b> Sudeste - Sentido Canoas</p><br><p><b>km inicial: </b>379</p><br><p><b>km final: </b>383</p><br><p><b>Motivo:</b> Obra na Rodovia</p><br><p>Pista sentido Sudeste - Sentido Canoas com obras Obs: Segunda faixa interditada devido à obras com sinalização 24h.</p></div><footer></footer></div></div><div class="occurrence" style="left: 457px; top: 32px;"><a class="icon orange"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-290</h4><br><p><b>Sentido:</b> Leste - Sentido Osório</p><br><p><b>km inicial: </b>19</p><br><p><b>km final: </b>19</p><br><p><b>Motivo:</b> Desvio devido à obras</p><br><p><b>Cidade:</b> Santo Antônio da Patrulha</p><br><p>Pista sentido Leste - Sentido Osório com obras Obs: Atenção!! Desvio de faixa devido obras no local, ambos os sentidos.</p></div><footer></footer></div></div><div class="occurrence" style="left: 366px; top: 25px;"><a class="icon alert"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-290</h4><br><p><b>Sentido:</b> Oeste - Sentido Porto Alegre</p><br><p><b>km inicial: </b>60</p><br><p><b>km final: </b>60</p><br><p><b>Motivo:</b> Atenção para sinalização especial, desvio à direita devido à obras no local.</p><br><p><b>Cidade:</b> Gravataí</p><br><p>Pista
+ sentido Oeste - Sentido Porto Alegre com tráfego interrompido Obs: 
+Atenção para sinalização especial, desvio à direita devido à obras no 
+local.</p></div><footer></footer></div></div><div class="occurrence" style="left: 368px; top: 32px;"><a class="icon alert"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-290</h4><br><p><b>Sentido:</b> Leste - Sentido Osório</p><br><p><b>km inicial: </b>60</p><br><p><b>km final: </b>60</p><br><p><b>Motivo:</b> Atenção para sinalização especial, desvio à direita devido à obras no local.</p><br><p><b>Cidade:</b> Gravataí</p><br><p>Pista
+ sentido Leste - Sentido Osório com tráfego interrompido Obs: Atenção 
+para sinalização especial, desvio à direita devido à obras no local.</p></div><footer></footer></div></div><div class="occurrence" style="left: 489px; top: 61px;"><a class="icon orange"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-386</h4><br><p><b>Sentido:</b> Sudeste - Sentido Canoas</p><br><p><b>km inicial: </b>303</p><br><p><b>km final: </b>303</p><br><p><b>Motivo:</b> Obra na Rodovia</p><br><p>Pista sentido Sudeste - Sentido Canoas com obras Obs: Primeira faixa interditada devido à obras.</p></div><footer></footer></div></div></div>
+        </div>
+    </div>
+</header>
+<div id="pmv">
+    <div class="wrap">
+        <span class="pmv-text"><span class="marquee">
+            <!-- ajax content -->
+        </span></span>
+        <div class="alert">
+        </div>
+    </div>
+</div>
+
+	
+
+
+
+
+
+
+
+<section id="teaser">
+	<div class="wrap">
+		<h3>Serviços</h3>
+	</div>
+</section>
+
+<section id="torso">
+
+	<div class="wrap">
+		<aside id="sectionNav">
+			<ul>
+                        <li><a href="http://www.ccrviasul.com.br/sos-usuario">Bases Operacionais e SAU</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/tarifas">Tarifas de Pedágio</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/seguranca">Dicas de Segurança</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/links">Links Úteis</a></li>
+                        <li><a class="active" href="#" onclick="return false;" style="cursor:default;">Serviços ao Caminhoneiro</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/fluxo-de-trafego">Fluxo de Veículos Horário</a></li>
+			</ul>
+                <a href="http://www.ccrviasul.com.br/" class="back-home">&lt; Voltar para Home</a>
+		</aside>
+		
+        
+
+
+
+<script type="text/javascript" src="ViaSul_files/jquery-1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        FillDropDownListFilters(false, null, null, null);
+
+        $('.filter-attendance select').on('change', function (event) {
+            event.preventDefault();
+
+            var city = $('#filter-city').val();
+            var direction = $('#filter-direction').val();
+            var service = $('#filter-service').val();
+
+            FillDropDownListFilters(true, city, direction, service);
+        });
+    });
+
+    function StationAttendance(city, direction, service) {
+        $('#station-attendance-container').hide();
+        $('#msg-wait').show();
+
+        $.ajax({
+            url: '/generic/Service/StationAttendance',
+            type: 'POST',
+            data: {
+                partial: true,
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                $('#station-attendance-container').html(data).show();
+                $('#msg-wait').hide();
+            }
+        });
+    }
+
+    function FillDropDownListFilters(loadItems, city, direction, service) {
+        $('.filter-attendance select').attr('disabled', true);
+
+        var currentCity = city;
+        var currentDirection = direction;
+        var currentService = service;
+
+        $.ajax({
+            url: '/generic/Service/ListStationAttendanceFilters',
+            type: 'POST',
+            data: {
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                if (data != null) {
+                    $('option:not(:first)', '#filter-city').remove();
+                    $('option:not(:first)', '#filter-direction').remove();
+                    $('option:not(:first)', '#filter-service').remove();
+
+                    $.each(data.Cities, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-city');
+                    });
+
+                    $.each(data.Directions, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-direction');
+                    });
+
+                    $.each(data.Services, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-service');
+                    });
+                }
+
+                $('#filter-city').val(currentCity);
+                $('#filter-direction').val(currentDirection);
+                $('#filter-service').val(currentService);
+
+                $('.filter-attendance select').attr('disabled', false);
+            }
+        });
+
+        if (loadItems)
+            StationAttendance(city, direction, service);
+    }
+</script>
+
+<div id="content">
+    <hgroup>
+        <h2 class="page-title">Serviços ao Caminhoneiro</h2>
+    </hgroup>
+
+    <div class="body">
+        <p>Como forma de apoiar os usuários neste momento de pandemia, o
+ Grupo CCR criou este espaço para indicar para os caminhoneiros as ações
+ e pontos de apoio nas rodovias.</p>
+
+        <div class="filter-attendance">
+            <select id="filter-city">
+                <option value="" selected="selected">Cidades</option>
+            <option value="Cachoeirinha">Cachoeirinha</option><option value="Canoas">Canoas</option><option value="Carazinho">Carazinho</option><option value="D.Pedro de Alcântara">D.Pedro de Alcântara</option><option value="Dom Pedro de Alcântara">Dom Pedro de Alcântara</option><option value="Estrela">Estrela</option><option value="Fazenda Vila Nova">Fazenda Vila Nova</option><option value="Fontoura Xavier">Fontoura Xavier</option><option value="Glorinha">Glorinha</option><option value="Gravataí">Gravataí</option><option value="Lajeado">Lajeado</option><option value="Marques de Souza">Marques de Souza</option><option value="Montenegro">Montenegro</option><option value="Nova Santa Rita">Nova Santa Rita</option><option value="Osório">Osório</option><option value="Paverama">Paverama</option><option value="Porto Alegre">Porto Alegre</option><option value="Pouso Novo">Pouso Novo</option><option value="Santo Antonio de Patrulha">Santo Antonio de Patrulha</option><option value="Santo Antonio Planalto">Santo Antonio Planalto</option><option value="São José do Herval">São José do Herval</option><option value="Soledade">Soledade</option><option value="Tabaí">Tabaí</option><option value="Terra de Areia">Terra de Areia</option><option value="Tio Hugo">Tio Hugo</option><option value="Torres">Torres</option><option value="Três Cachoeiras">Três Cachoeiras</option><option value="Triunfo">Triunfo</option></select>
+            <select id="filter-direction">
+                <option value="" selected="selected">Direções</option>
+            <option value="Leste">Leste</option><option value="norte">norte</option><option value="Norte">Norte</option><option value="Oeste">Oeste</option><option value="Sul">Sul</option></select>
+            <select id="filter-service">
+                <option value="" selected="selected">Serviços</option>
+            <option value="Atendimentos Médicos">Atendimentos Médicos</option><option value="Auto Elétrica">Auto Elétrica</option><option value="Banheiro">Banheiro</option><option value="Borracharia">Borracharia</option><option value="Chuveiro">Chuveiro</option><option value="Desinfecção de Cabines de Caminhão">Desinfecção de Cabines de Caminhão</option><option value="Distribuição Kits de Alimentação/Higiene">Distribuição Kits de Alimentação/Higiene</option><option value="Estacionamento">Estacionamento</option><option value="Hotel">Hotel</option><option value="Lancheria">Lancheria</option><option value="Loja de conveniência">Loja de conveniência</option><option value="Posto de combustível">Posto de combustível</option><option value="Restaurante">Restaurante</option><option value="Troca de Lâmpadas de Caminhão">Troca de Lâmpadas de Caminhão</option><option value="Vale-refeição">Vale-refeição</option></select>
+        </div>
+
+        <div id="msg-wait" style="display:none;">AGUARDE</div>
+        <div id="station-attendance-container">
+            <script type="text/javascript">
+    $(document).ready(function () {
+        var tab;
+
+        $('.exchangetab').hide();
+        $('.exchangetab:first').show();
+        $('.tabs li a:first').addClass('active');
+
+        if ($('.exchangetab').length > 1) {
+            $('.toll-container').addClass('with-tabs');
+        }
+
+
+        $('.tabs li a').on('click', function () {
+            tab = $(this).attr('href');
+            $('.tabs li a').removeClass('active');
+            $(this).addClass('active');
+            $('.exchangetab').hide();
+            $(tab).show();
+
+            return false;
+        });
+    });
+</script>
+
+<div>
+
+    <div class="tabs">
+        <ul>
+                <li><a href="#road-br-101-rs" class="active">BR-101/RS</a></li>
+                <li><a href="#road-br-290-rs">BR-290/RS</a></li>
+                <li><a href="#road-br-386-rs">BR-386/RS</a></li>
+        </ul>
+    </div>
+
+        <div class="exchangetab attendance-table" id="road-br-101-rs" style="display: flex;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 2
+                        <span>Torres - Norte</span>
+                        <span>Posto São João</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 2
+                        <span>Torres - Norte</span>
+                        <span>Posto Vida</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 2
+                        <span>Torres - Sul</span>
+                        <span>Campeiro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 5
+                        <span>Torres - Norte</span>
+                        <span>Posto Belvedere</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 8
+                        <span>Torres - Sul</span>
+                        <span>Restaurante Novo Ponto</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 13
+                        <span>D.Pedro de Alcântara - Sul</span>
+                        <span>Paradouro 86</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 15
+                        <span>Dom Pedro de Alcântara - Sul</span>
+                        <span>Base Operacional</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Atendimentos Médicos</strong></li>
+                                    <li><strong>Distribuição Kits de Alimentação/Higiene</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 23
+                        <span>Três Cachoeiras - Sul</span>
+                        <span>Posto Litoral</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 24
+                        <span>Três Cachoeiras - Norte</span>
+                        <span>Posto Pedras Brancas</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 33
+                        <span>Três Cachoeiras - Norte</span>
+                        <span>Comercial Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 43
+                        <span>Terra de Areia - Sul</span>
+                        <span>Auto Posto Jam</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 50
+                        <span>Terra de Areia - Norte</span>
+                        <span>Posto Rota 101</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 51
+                        <span>Terra de Areia - Sul</span>
+                        <span>Recanto dos Caminhoneiros</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 72
+                        <span>Osório - Sul</span>
+                        <span>Auto Elétrica Play Car</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 72
+                        <span>Osório - Sul</span>
+                        <span>Auto Posto Tulio Figueiras</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 72
+                        <span>Osório - Sul</span>
+                        <span>Borracharia Taz</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 79
+                        <span>Osório - Sul</span>
+                        <span>Borracharia 2 Irmãos</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 79
+                        <span>Osório - Sul</span>
+                        <span>Jeito de Casa</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 79
+                        <span>Osório - Sul</span>
+                        <span>Restaurante 2 Irmãos</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 81
+                        <span>Osório - Sul</span>
+                        <span>Borracharia Daminelli</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 81
+                        <span>Osório - Sul</span>
+                        <span>Castelhano</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 82
+                        <span>Osório - Norte</span>
+                        <span>Comercial Buffon/ Rest. Araújo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 82
+                        <span>Osório - Sul</span>
+                        <span>Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 83
+                        <span>Osório - norte</span>
+                        <span>Posto Tulio Osório</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 84
+                        <span>Osório - Norte</span>
+                        <span>Posto Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Desinfecção de Cabines de Caminhão</strong></li>
+                                    <li><strong>Troca de Lâmpadas de Caminhão</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 84
+                        <span>Osório - Norte</span>
+                        <span>Posto Km 1 / Luzardo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 85
+                        <span>Osório - Sul</span>
+                        <span>Dirceu Truck Center</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 85
+                        <span>Osório - Sul</span>
+                        <span>Luzardo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 85
+                        <span>Osório - Sul</span>
+                        <span>Recap Pneus</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 86
+                        <span>Osório - Norte</span>
+                        <span>Posto Querência</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 86
+                        <span>Osório - Sul</span>
+                        <span>Chile Pneus</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 86
+                        <span>Osório - Sul</span>
+                        <span>Posto Chimarrão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 87
+                        <span>Osório - Norte</span>
+                        <span>Posto Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="exchangetab attendance-table" id="road-br-290-rs" style="display: none;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 1
+                        <span>Osório - Leste</span>
+                        <span>Posto Maravilha - Mecânica Dema</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 26
+                        <span>Santo Antonio de Patrulha - Oeste</span>
+                        <span>Borracharia Fernandes</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 53
+                        <span>Glorinha - Oeste</span>
+                        <span>Borracharia Fernandes</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 69
+                        <span>Gravataí - Oeste</span>
+                        <span>Posto SIM Freeway</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Vale-refeição</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 75
+                        <span>Gravataí - Oeste</span>
+                        <span>Posto Radar</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 77
+                        <span>Gravataí - Oeste</span>
+                        <span>Base Operacional</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Atendimentos Médicos</strong></li>
+                                    <li><strong>Distribuição Kits de Alimentação/Higiene</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 80
+                        <span>Gravataí - Leste</span>
+                        <span>Posto GRAAL Rota 80</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 80
+                        <span>Porto Alegre - Leste</span>
+                        <span>Posto Graal Rota 80</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Desinfecção de Cabines de Caminhão</strong></li>
+                                    <li><strong>Troca de Lâmpadas de Caminhão</strong></li>
+                                    <li><strong>Vale-refeição</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 83
+                        <span>Cachoeirinha - Oeste</span>
+                        <span>Posto Freeway</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 85
+                        <span>Porto Alegre - Leste</span>
+                        <span>Posto Fiergs</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 92
+                        <span>Porto Alegre - Leste</span>
+                        <span>Posto Savar</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 92
+                        <span>Porto Alegre - Oeste</span>
+                        <span>Posto Kabana</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="exchangetab attendance-table" id="road-br-386-rs" style="display: none;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 178
+                        <span>Carazinho - Norte</span>
+                        <span>RH Riss Combustiveis</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 180
+                        <span>Carazinho - Sul</span>
+                        <span>Posto Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 190
+                        <span>Santo Antonio Planalto - Norte</span>
+                        <span>Posto Santo Antonio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 213
+                        <span>Tio Hugo - Norte</span>
+                        <span>Posto Rota do Sul</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 213
+                        <span>Tio Hugo - Norte</span>
+                        <span>Restaurante Rota do Sul</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 214
+                        <span>Tio Hugo - Norte</span>
+                        <span>Abastecedora de Combustivel Remma</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 242
+                        <span>Soledade - Norte</span>
+                        <span>Restaurante Itallians</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 243
+                        <span>Soledade - Norte</span>
+                        <span>Posto Nevoeiro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Hotel</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 245
+                        <span>Soledade - Norte</span>
+                        <span>Posto da Dona Adélia</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 245
+                        <span>Soledade - Norte</span>
+                        <span>Posto Tradição</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 246
+                        <span>Soledade - Sul</span>
+                        <span>Posto Rochemcack</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 255
+                        <span>Soledade - Sul</span>
+                        <span>Café Colonial e Restaurante 255</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 257
+                        <span>Soledade - Norte</span>
+                        <span>Paradouro Parque das Tuias</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 268
+                        <span>Fontoura Xavier - Norte</span>
+                        <span>Posto RH Riss</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Desinfecção de Cabines de Caminhão</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+                                    <li><strong>Troca de Lâmpadas de Caminhão</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 269
+                        <span>Fontoura Xavier - Sul</span>
+                        <span>Posto Gauchão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 280
+                        <span>São José do Herval - Norte</span>
+                        <span>Posto Jonare</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 283
+                        <span>São José do Herval - Sul</span>
+                        <span>Posto Charrua / Hotel Frozza</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Hotel</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 297
+                        <span>Pouso Novo - Sul</span>
+                        <span>Hotel/ Churrascaria do Gringo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Hotel</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 298
+                        <span>Pouso Novo - Norte</span>
+                        <span>Churrascaria os Piás do Gringo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 298
+                        <span>Pouso Novo - Norte</span>
+                        <span>Posto do Gringo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 300
+                        <span>Pouso Novo - Sul</span>
+                        <span>Posto Bozeti</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 319
+                        <span>Marques de Souza - Norte</span>
+                        <span>Sabor Caseiro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 321
+                        <span>Marques de Souza - Norte</span>
+                        <span>Churrascaria e Lancheria No Ponto</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 324
+                        <span>Marques de Souza - Norte</span>
+                        <span>Posto Sul Max</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 324
+                        <span>Marques de Souza - Sul</span>
+                        <span>Marques Restaurante e Hotel</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Hotel</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 324
+                        <span>Marques de Souza - Sul</span>
+                        <span>Posto Marques de Souza</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 333
+                        <span>Marques de Souza - Norte</span>
+                        <span>Restaurante e Lancheria 111</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 341
+                        <span>Lajeado - Norte</span>
+                        <span>O Panelão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 341
+                        <span>Lajeado - Sul</span>
+                        <span>Posto Codorna</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 341
+                        <span>Lajeado - Sul</span>
+                        <span>Posto Nevoeiro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 341
+                        <span>Lajeado - Sul</span>
+                        <span>Restaurante e Lancheria Perdigão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 347
+                        <span>Estrela - Norte</span>
+                        <span>Base Operacional</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Atendimentos Médicos</strong></li>
+                                    <li><strong>Distribuição Kits de Alimentação/Higiene</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 348
+                        <span>Lajeado - Norte</span>
+                        <span>Churrascaria Boi e Brasa</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 348
+                        <span>Lajeado - Norte</span>
+                        <span>Posto Floresta</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 351
+                        <span>Estrela - Norte</span>
+                        <span>Comercial Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Hotel</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 358
+                        <span>Estrela - Sul</span>
+                        <span>Posto Le Premier</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 365
+                        <span>Fazenda Vila Nova - Sul</span>
+                        <span>Posto Formula</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 371
+                        <span>Fazenda Vila Nova - Sul</span>
+                        <span>Restaurante e Lancheria Britinho</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 373
+                        <span>Paverama - Norte</span>
+                        <span>Posto Rosinha</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 373
+                        <span>Paverama - Norte</span>
+                        <span>Restaurante Rosinha</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 373
+                        <span>Paverama - Sul</span>
+                        <span>Posto Rosinha</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 374
+                        <span>Paverama - Sul</span>
+                        <span>Posto Rosinha</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Desinfecção de Cabines de Caminhão</strong></li>
+                                    <li><strong>Troca de Lâmpadas de Caminhão</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 385
+                        <span>Tabaí - Norte</span>
+                        <span>Posto Rede Energia</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 385
+                        <span>Tabaí - Norte</span>
+                        <span>Restaurante e Churrascaria Palhoça</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 385
+                        <span>Tabaí - Sul</span>
+                        <span>Rede Energia Posto 28</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 388
+                        <span>Triunfo - Norte</span>
+                        <span>Churrascaria Sobradinho</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 388
+                        <span>Triunfo - Norte</span>
+                        <span>Restaurante e Lancheria Raraelli</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 388
+                        <span>Triunfo - Sul</span>
+                        <span>Posto Radar</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 388
+                        <span>Triunfo - Sul</span>
+                        <span>Restaurante Churrascaria Coxilha Velha</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 391
+                        <span>Triunfo - Norte</span>
+                        <span>Hotel e Churrascaria Paladar</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Hotel</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 392
+                        <span>Triunfo - Norte</span>
+                        <span>Posto Pioneiro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 392
+                        <span>Triunfo - Norte</span>
+                        <span>Restaurante e Churrascaria FC</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 404
+                        <span>Montenegro - Sul</span>
+                        <span>Restaurante Camarote</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 411
+                        <span>Montenegro - Norte</span>
+                        <span>Posto Vendinha</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 414
+                        <span>Montenegro - Sul</span>
+                        <span>Comercial Buffon</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 417
+                        <span>Montenegro - Norte</span>
+                        <span>Posto 27</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 419
+                        <span>Montenegro - Sul</span>
+                        <span>Restaurante e Churrascaria Paradouro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 423
+                        <span>Montenegro - Norte</span>
+                        <span>Restaurante e Lancheria 23</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 425
+                        <span>Montenegro - Norte</span>
+                        <span>Posto Polo Sul</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 432
+                        <span>Nova Santa Rita - Sul</span>
+                        <span>Base Operacional</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Atendimentos Médicos</strong></li>
+                                    <li><strong>Distribuição Kits de Alimentação/Higiene</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 433
+                        <span>Nova Santa Rita - Sul</span>
+                        <span>Posto Valentina</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 435
+                        <span>Nova Santa Rita - Norte</span>
+                        <span>Buffon 10</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 435
+                        <span>Nova Santa Rita - Sul</span>
+                        <span>Sim Rede Nova Santa Rita</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 436
+                        <span>Nova Santa Rita - Sul</span>
+                        <span>Posto Canarinho</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 438
+                        <span>Nova Santa Rita - norte</span>
+                        <span>Com. Buffon/ Rest. E Lancheria Grenas</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 441
+                        <span>Canoas - Norte</span>
+                        <span>Rede Energia</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Auto Elétrica</strong></li>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Chuveiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Lancheria</strong></li>
+                                    <li><strong>Loja de conveniência</strong></li>
+                                    <li><strong>Posto de combustível</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 442
+                        <span>Canoas - Norte</span>
+                        <span>Restaurante Salton</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Banheiro</strong></li>
+                                    <li><strong>Estacionamento</strong></li>
+                                    <li><strong>Restaurante</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/06/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+		
+		<div style="clear:both"></div>
+	</div>	
+</section>
+	<footer>
+	<div class="wrap">
+            <div class="about list">
+			    <h3>CCR ViaSul</h3>
+			    <ul>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/">Sobre a CCR ViaSul</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/crencas-valores">Crenças e Valores</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/programa-de-compliance">Programa de Compliance</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/nossos-numeros">Nossos Números</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/transparencia-regulatoria">Transparência Regulatória</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/transparencia-fiscal">Transparência Fiscal</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/institucional/trabalhe-conosco">Trabalhe Conosco</a></li>
+			    </ul>
+		    </div>
+		
+            <div class="services list">
+			    <h3>Serviços</h3>
+			    <ul>
+                        <li><a href="http://www.ccrviasul.com.br/sos-usuario">Bases Operacionais e SAU</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/tarifas">Tarifas de Pedágio</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/seguranca">Dicas de Segurança</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/links">Links Úteis</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/servicos-ao-caminhoneiro">Serviços ao Caminhoneiro</a></li>
+                        <li><a href="http://www.ccrviasul.com.br/fluxo-de-trafego">Fluxo de Veículos Horário</a></li>
+                    			    </ul>
+		    </div>
+		
+            <div class="about list">
+			    <h3>Contratações CCR ViaSul</h3>
+			    <ul>
+                        <li><a href="http://www.ccrviasul.com.br/contratacoes/">Contratações</a></li>
+			    </ul>
+		    </div>
+
+        
+            <div class="press list">
+			    <h3>Notícias da CCR ViaSul</h3>
+			    <ul>
+                        <li><a href="http://www.ccrviasul.com.br/noticias">Notícias</a></li>
+                                            <li><a href="http://www.ccrviasul.com.br/revistas">Revistas</a></li>
+			    </ul>
+		    </div>
+		
+        <div class="contact-box">
+                <div class="contact list">
+			        <h3>Fale conosco</h3>
+			        <ul>
+                            <li><a href="http://www.ccrviasul.com.br/contato">Contato</a></li>
+                            <li><a href="http://www.ccrviasul.com.br/consulte-seu-chamado">Consulte seu Chamado</a></li>
+                            <li><a href="http://www.ccrviasul.com.br/perguntas-frequentes">Perguntas Frequentes</a></li>
+			        </ul>
+		        </div>
+		    
+            <div class="links">
+                    <a href="http://www.ccrviasul.com.br/ri" class="grey-button">Relação com Investidores</a>
+
+                    <a href="https://recibodopedagio.com.br/?concessao=viasul" class="grey-button" target="_blank">Documento Fiscal</a>
+
+                    <a href="https://jobs.kenoby.com/grupoccr" class="grey-button red" target="_blank">Trabalhe Conosco</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+                <div class="phone-0800">Disque CCR ViaSul<span>0800 000 0290</span></div>
+            
+        
+        </div>
+
+        <div class="clearfix"></div>
+		
+        <div class="labels">
+			<!-- <a href="http://www.grupoccr.com.br/10anosipo" class="ccr-10" target="_blank" title="CCR 10 anos">CCR 10 anos</a> -->
+            <span class="ise" title="Índice de Sustentabilidade Empresarial">Índice de Sustentabilidade Empresarial</span>
+            <span class="pacto-global" title="Nós apoiamos o pacto global">Nós apoiamos o pacto global</span>
+            <span class="ods" title="ODS">ODS</span>
+		</div>
+        
+        
+		<footer>
+			<nav>
+				<ul>
+					<!--<li><a href="">Privacidade e Termos de Uso</a></li> -->
+					<li><a href="http://www.ccrviasul.com.br/institucional/sobre">Sobre a CCR ViaSul</a></li>
+					<li><a href="http://www.grupoccr.com.br/" target="_blank">Grupo CCR</a></li>
+				</ul>
+			</nav>
+            <p class="copyright">© COPYRIGHT 2020 - CCR - GRUPO - TODOS OS DIREITOS RESERVADOS.</p>
+			<p class="disclaimer">O Grupo CCR não tem objetivo de avaliar os serviços citados no site. Sua citação é meramente informativa.</p>
+			<a href="http://www.tesla.com.br/" target="_blank" class="signature"><img src="ViaSul_files/logo-tesla.png" alt="TESLA"></a>
+		</footer>
+	</div>
+</footer>
+
+<div id="modal">
+	<div class="container">
+		<header>
+			<h3></h3>
+			<div class="alert"></div>
+			<a class="close"></a>
+		</header>
+		<div class="torso">
+			<div class="content"></div>
+		</div>
+		<footer>
+			<span class="notes"></span>
+		</footer>
+	</div>
+</div>
+
+<div class="video-box" style="display:none;">
+    <div class="video-box-dialog">
+        <div class="video-box-content">
+            <button type="button" class="close">×</button>
+            <div class="video-box-body">
+                <div class="video-box-responsive">
+                    <iframe id="iframe-video" class="video-embeded-responsive" allowfullscreen="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="ViaSul_files/polyfills.js"></script>
+
+        <script type="text/javascript" src="ViaSul_files/pt-BR.js"></script>
+    
+    
+    
+
+
+	<script type="text/javascript">
+		/* jshint forin:true, eqnull:true, noarg:true, noempty:true, eqeqeq:true, evil:true, bitwise:true, strict:true, undef:true, unused:true, curly:true, browser:true, indent:4, maxerr:50 */
+
+		// load the correct scripts
+		(function () {
+
+			'use strict';
+
+			var isLocal = /(localhost)|(192)|(127)|(tesla)/.test(document.location.hostname),
+				jsPath = '/Scripts/', // Scripts Path,
+				script;
+
+			// You can define a custom javascript file for each template
+
+    
+    script = 'services';
+
+
+			//var dataMain = jsPath + (isLocal ? 'src/' + script + '.js' : script + '.min.js'),
+			var dataMain = jsPath + 'src/' + script + '.js',
+				gaSrc = ('https:' === location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js',
+				//maplink = '//services.maplink.com.br/maplinkapi2/api.ashx?v=4&key=GKdFauFywwLPTLvrGMkvaAFgbCgRw09sGLu9QR==',
+				titleBolder = jsPath + 'src/helpers/ccrTitleBolder.js';
+
+			function addScript(src, dataMain) {
+				var tag = '<script src="' + src + '"';
+
+				if (dataMain != null) {
+					tag += ' data-main="' + dataMain + '"';
+				}
+
+				tag += "><\/script>";
+				document.write(tag);
+			}
+
+			//addScript(maplink);
+			//addScript(titleBolder);
+			//addScript(gaSrc);
+			addScript('/Scripts/src/libs/require-jquery.min.js', dataMain);
+		}());
+	</script><script src="ViaSul_files/require-jquery.js" data-main="/Scripts/src/services.js"></script>
+
+    
+    
+
+    
+    
+
+    
+    <script type="text/javascript" src="ViaSul_files/ccrTitleBolder.js"></script>
+
+    <script type="text/javascript" src="ViaSul_files/jquery_002.js"></script>
+    <script type="text/javascript" src="ViaSul_files/jquery_004.js"></script>
+    <script type="text/javascript" src="ViaSul_files/jquery_003.js"></script>
+    <script src="ViaSul_files/jquery.js"></script>
+    <script src="ViaSul_files/script.js"></script>
+
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Scripts/src/ie.js"></script>
+    <![endif]-->
+
+</body></html>
+<!-- L:40.93 R:8.24 -->

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" src="RodoAnel_files/recaptcha__pt_br.js"></script><script type="text/javascript" async="" src="RodoAnel_files/ga.js"></script><script async="" src="RodoAnel_files/gtm.js"></script><script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-VMS3');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		
+        <meta name="title">
+        <meta name="keywords">
+        <meta name="description">
+
+		<link rel="shortcut icon" href="http://www.rodoaneloeste.com.br/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://www.rodoaneloeste.com.br/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="RodoAnel_files/main.css">
+
+        
+    <link rel="stylesheet" href="RodoAnel_files/internals.css">
+    <link rel="stylesheet" href="RodoAnel_files/services.css">
+    
+    <link rel="stylesheet" href="RodoAnel_files/station-attendance.css">
+
+
+
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="/Scripts/src/libs/IE8.js">
+			<link rel="stylesheet" href="/Content/Styles/ie.css">
+		<![endif]-->
+
+		<!--
+			<script type="text/javascript" src="/Scripts/src/libs/modernizr-2.6.1.min.js"></script>
+			<script type="text/javascript" src="/Scripts/src/libs/selectivizr-min.js"></script>
+		-->
+		<script src="RodoAnel_files/modernizr.js"></script>
+		<script src="RodoAnel_files/selectivizr-min.js"></script>
+		
+        <script src="RodoAnel_files/api.js" type="text/javascript"></script>
+
+		<script>
+			window.Modernizr || document.write('<script src="/Scripts/src/libs/modernizr-2.6.2.min.js"><\/script>');
+		</script>
+
+        
+    
+    <script type="text/javascript" src="RodoAnel_files/PluginDetect_WMP.js"></script>
+
+        
+    
+
+	<style></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services" src="RodoAnel_files/services.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/supportMenu" src="RodoAnel_files/supportMenu.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/occurrences" src="RodoAnel_files/occurrences.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/trafficFlow" src="RodoAnel_files/trafficFlow.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/pmv" src="RodoAnel_files/pmv.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/customScroll" src="RodoAnel_files/customScroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/modal" src="RodoAnel_files/modal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/cookies" src="RodoAnel_files/cookies.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/marquee" src="RodoAnel_files/marquee.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/event.drag" src="RodoAnel_files/event.js"></script></head>
+<body class="attendance-container internal  rodoanel">
+        <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-VMS3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+	<header>
+    <nav class="support-menu no-languages">
+        <div class="wrap">
+            <ul>
+                <li><a href="http://www.grupoccr.com.br/" target="_blank" class="ccr">Site CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/sobre/" target="_blank">Sobre a CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/empresas/" target="_blank">Empresas do Grupo</a></li>
+                <li><a href="http://ri.ccr.com.br/" target="_blank">Relações com Investidores</a></li>
+                    <li><a href="http://www.rodoaneloeste.com.br/ri" class="grey-button">Relação com Investidores RodoAnel</a></li>
+                <li><a href="http://www.grupoccr.com.br/responsabilidade/" target="_blank">Responsabilidade Corporativa</a></li>
+                    <li class="jobs"><a href="https://jobs.kenoby.com/grupoccr" class="jobs">Trabalhe Conosco</a></li>
+                <li class="languages">
+                    <ul>
+                            <li>
+                                <a href="http://www.rodoaneloeste.com.br/" class="por">Por <span>▼</span></a>
+                            </li>
+                            <li>
+                                <a href="http://en.rodoaneloeste.com.br/" class="eng selected" style="border: 0px solid transparent;">Eng <span>▼</span></a>
+                            </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="black-header">
+        <div class="wrap">
+            <nav class="expand-menu">
+	<div class="content">
+		<a href="http://www.rodoaneloeste.com.br/">
+			<h1 style="color: rgb(86, 86, 86);"><b>CCR</b> RodoAnel</h1>
+		</a>
+	</div>
+</nav>
+<a class="expand-button">Outras concessionárias<span>▼</span></a>
+<ul class="concessionaries">
+            <li><a href="http://www.novadutra.com.br/" target="_blank"><b>CCR</b> NovaDutra</a></li>
+            <li><a href="http://www.rodoviadoslagos.com.br/" target="_blank"><b>CCR</b> ViaLagos</a></li>
+            <li><a href="http://www.rodonorte.com.br/" target="_blank"><b>CCR</b> RodoNorte</a></li>
+            <li><a href="http://www.autoban.com.br/" target="_blank"><b>CCR</b> AutoBAn</a></li>
+            <li><a href="http://www.viaoeste.com.br/" target="_blank"><b>CCR</b> ViaOeste</a></li>
+            <li><a href="http://www.spvias.com.br/" target="_blank"><b>CCR</b> SPVias</a></li>
+            <li><a href="http://www.msvia.com.br/" target="_blank"><b>CCR</b> MSVia</a></li>
+            <li><a href="http://www.ccrviasul.com.br/" target="_blank"><b>CCR</b> ViaSul</a></li>
+	<li><a class="other-portals">Outras concessionárias<span>▲</span></a></li>
+</ul>
+
+                <h3>Veja abaixo as condições da rodovia</h3>
+                <div id="mini-map"><div class="occurrence" style="left: 24px; top: 55px;"><a class="icon green"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>RodoAnel (Mario Covas)</h4><br><p><b>Sentido:</b> Litoral</p><br><p><b>km inicial: </b>0</p><br><p><b>km final: </b>29.3</p><br><p>Pista sentido Litoral com Tráfego normal na pista Expressa.</p></div><footer></footer></div></div><div id="subtitle-green"><span class="icon"></span><span class="txt">TRÁFEGO NORMAL</span></div></div>
+        </div>
+    </div>
+</header>
+<div id="pmv" style="display: block;">
+    <div class="wrap">
+        <span class="pmv-text"><span class="marquee"> : : : : : A CCR te
+ oferece uma consulta online gráticas com a Cia da Consulta: ligue 4000 
+1001 ou clique aqui.&nbsp;&nbsp; : : : : : A CCR te oferece uma consulta
+ online gráticas com a Cia da Consulta: ligue 4000 1001 ou clique 
+aqui.&nbsp;&nbsp; : : : : : A CCR te oferece uma consulta online 
+gráticas com a Cia da Consulta: ligue 4000 1001 ou clique 
+aqui.&nbsp;&nbsp; : : : : : A CCR te oferece uma consulta online 
+gráticas com a Cia da Consulta: ligue 4000 1001 ou clique 
+aqui.&nbsp;&nbsp;</span></span>
+        <div class="alert">
+        </div>
+    </div>
+</div>
+
+	
+
+
+
+
+
+
+
+<section id="teaser">
+	<div class="wrap">
+		<h3>Serviços</h3>
+	</div>
+</section>
+
+<section id="torso">
+
+	<div class="wrap">
+		<aside id="sectionNav">
+			<ul>
+                        <li><a href="http://www.rodoaneloeste.com.br/sos-usuario">SOS Usuário</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/tarifas">Tarifas de Pedágio</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/servicos/cobranca-automatica">Cobrança Automática</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/dicas-turismo">Dicas de Turismo</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/links">Links Úteis</a></li>
+                        <li><a class="active" href="#" onclick="return false;" style="cursor:default;">Serviços ao Caminhoneiro</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/carga-excepcional">Carga Excepcional</a></li>
+			</ul>
+                <a href="http://www.rodoaneloeste.com.br/" class="back-home">&lt; Voltar para Home</a>
+		</aside>
+		
+        
+
+
+
+<script type="text/javascript" src="RodoAnel_files/jquery-1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        FillDropDownListFilters(false, null, null, null);
+
+        $('.filter-attendance select').on('change', function (event) {
+            event.preventDefault();
+
+            var city = $('#filter-city').val();
+            var direction = $('#filter-direction').val();
+            var service = $('#filter-service').val();
+
+            FillDropDownListFilters(true, city, direction, service);
+        });
+    });
+
+    function StationAttendance(city, direction, service) {
+        $('#station-attendance-container').hide();
+        $('#msg-wait').show();
+
+        $.ajax({
+            url: '/generic/Service/StationAttendance',
+            type: 'POST',
+            data: {
+                partial: true,
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                $('#station-attendance-container').html(data).show();
+                $('#msg-wait').hide();
+            }
+        });
+    }
+
+    function FillDropDownListFilters(loadItems, city, direction, service) {
+        $('.filter-attendance select').attr('disabled', true);
+
+        var currentCity = city;
+        var currentDirection = direction;
+        var currentService = service;
+
+        $.ajax({
+            url: '/generic/Service/ListStationAttendanceFilters',
+            type: 'POST',
+            data: {
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                if (data != null) {
+                    $('option:not(:first)', '#filter-city').remove();
+                    $('option:not(:first)', '#filter-direction').remove();
+                    $('option:not(:first)', '#filter-service').remove();
+
+                    $.each(data.Cities, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-city');
+                    });
+
+                    $.each(data.Directions, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-direction');
+                    });
+
+                    $.each(data.Services, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-service');
+                    });
+                }
+
+                $('#filter-city').val(currentCity);
+                $('#filter-direction').val(currentDirection);
+                $('#filter-service').val(currentService);
+
+                $('.filter-attendance select').attr('disabled', false);
+            }
+        });
+
+        if (loadItems)
+            StationAttendance(city, direction, service);
+    }
+</script>
+
+<div id="content">
+    <hgroup>
+        <h2 class="page-title">Serviços ao Caminhoneiro</h2>
+    </hgroup>
+
+    <div class="body">
+        <p>Como forma de apoiar os usuários neste momento de pandemia, o
+ Grupo CCR criou este espaço para indicar para os caminhoneiros as ações
+ e pontos de apoio nas rodovias.</p>
+
+        <div class="filter-attendance">
+            <select id="filter-city">
+                <option value="" selected="selected">Cidades</option>
+            <option value="Barueri">Barueri</option><option value="Osasco">Osasco</option><option value="São Paulo">São Paulo</option></select>
+            <select id="filter-direction">
+                <option value="" selected="selected">Direções</option>
+            <option value="Externa">Externa</option><option value="Interna">Interna</option></select>
+            <select id="filter-service">
+                <option value="" selected="selected">Serviços</option>
+            <option value="Entrega de refeição e Kit de higiene e alimentação">Entrega de refeição e Kit de higiene e alimentação</option><option value="TAG">TAG</option></select>
+        </div>
+
+        <div id="msg-wait" style="display:none;">AGUARDE</div>
+        <div id="station-attendance-container">
+            <script type="text/javascript">
+    $(document).ready(function () {
+        var tab;
+
+        $('.exchangetab').hide();
+        $('.exchangetab:first').show();
+        $('.tabs li a:first').addClass('active');
+
+        if ($('.exchangetab').length > 1) {
+            $('.toll-container').addClass('with-tabs');
+        }
+
+
+        $('.tabs li a').on('click', function () {
+            tab = $(this).attr('href');
+            $('.tabs li a').removeClass('active');
+            $(this).addClass('active');
+            $('.exchangetab').hide();
+            $(tab).show();
+
+            return false;
+        });
+    });
+</script>
+
+<div>
+
+    <div class="tabs">
+        <ul>
+                <li><a href="#road-sp021-rodoanel-oeste" class="active">SP021 - RODOANEL OESTE</a></li>
+        </ul>
+    </div>
+
+        <div class="exchangetab attendance-table" id="road-sp021-rodoanel-oeste" style="display: flex;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 0
+                        <span>São Paulo - Interna</span>
+                        <span>Pedágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>TAG</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 3
+                        <span>São Paulo - Externa</span>
+                        <span>Pedágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>TAG</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 6
+                        <span>São Paulo - Interna</span>
+                        <span>Pedágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>TAG</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 15
+                        <span>Barueri - Interna</span>
+                        <span>Pedágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>TAG</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 16
+                        <span>Osasco - Interna</span>
+                        <span>Casa do Usuário</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Entrega de refeição e Kit de higiene e alimentação</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 24
+                        <span>Osasco - Externa</span>
+                        <span>Pedágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>TAG</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 25
+                        <span>Osasco - Externa</span>
+                        <span>Pedágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>TAG</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 27/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+		
+		<div style="clear:both"></div>
+	</div>	
+</section>
+	<footer>
+	<div class="wrap">
+            <div class="about list">
+			    <h3>CCR RodoAnel</h3>
+			    <ul>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/">Sobre a CCR RodoAnel</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/programa%20de%20compliance">Programa de Compliance</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/crencas-valores">Crenças e Valores</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/transpar%C3%AAncia-regulat%C3%B3ria">Transparência Regulatória</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/nossos-numeros">Nossos Números</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/investimentos">Investimentos</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/transparencia-fiscal">Transparência Fiscal</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/trabalhe-conosco">Trabalhe Conosco</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/institucional/politica-de-sistema-de-gestao-integrado">Política do Sistema de Gestão Integrado</a></li>
+			    </ul>
+		    </div>
+		
+            <div class="services list">
+			    <h3>Serviços</h3>
+			    <ul>
+                        <li><a href="http://www.rodoaneloeste.com.br/sos-usuario">SOS Usuário</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/tarifas">Tarifas de Pedágio</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/servicos/cobranca-automatica">Cobrança Automática</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/dicas-turismo">Dicas de Turismo</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/links">Links Úteis</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/servicos-ao-caminhoneiro">Serviços ao Caminhoneiro</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/carga-excepcional">Carga Excepcional</a></li>
+                    			    </ul>
+		    </div>
+		
+
+            <div class="sustainability list">
+			    <h3>Sustentabilidade</h3>
+			    <ul>
+                        <li><a href="http://www.rodoaneloeste.com.br/sustentabilidade">Investimento Social</a></li>
+				    <li>
+					    <ul>
+                                <li>- <a href="http://www.rodoaneloeste.com.br/sustentabilidade/educativo">Educativo</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+		    </div>
+        
+            <div class="press list">
+			    <h3>Notícias da CCR RodoAnel</h3>
+			    <ul>
+                        <li><a href="http://www.rodoaneloeste.com.br/noticias">Notícias</a></li>
+                        <li><a href="http://www.rodoaneloeste.com.br/agenda">Agenda</a></li>
+                    			    </ul>
+		    </div>
+		
+        <div class="contact-box">
+                <div class="contact list">
+			        <h3>Fale Conosco</h3>
+			        <ul>
+                            <li><a href="http://www.rodoaneloeste.com.br/contato">Contato Ouvidoria</a></li>
+                            <li><a href="http://www.rodoaneloeste.com.br/perguntas-frequentes">Perguntas Frequentes</a></li>
+                            <li><a href="http://www.rodoaneloeste.com.br/indicadores-de-relacionamento">Indicadores de Relacionamento</a></li>
+                            <li><a href="http://www.rodoaneloeste.com.br/pesquisa-de-satisfacao">Pesquisa de Satisfação</a></li>
+                            <li><a href="http://www.rodoaneloeste.com.br/fale-conosco/relatorios-pesquisa-de-satisfacao">Relatórios Pesquisa de Satisfação</a></li>
+                            <li><a href="http://www.rodoaneloeste.com.br/consulte-seu-chamado">Consulte seu Chamado</a></li>
+			        </ul>
+		        </div>
+		    
+            <div class="links">
+                    <a href="http://www.rodoaneloeste.com.br/ri" class="grey-button">Relação com Investidores</a>
+
+                    <a href="https://recibodopedagio.com.br/?concessao=rodoaneloeste" class="grey-button" target="_blank">Documento Fiscal</a>
+
+                    <a href="https://jobs.kenoby.com/grupoccr" class="grey-button red" target="_blank">Trabalhe Conosco</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+                <div class="phone-0800">Disque CCR RodoAnel<span>0800-773-6699</span></div>
+            
+        
+                <a href="http://www.rodoaneloeste.com.br/contato">
+                    <div class="talk-ombudsman">
+                        Fale com a <strong>CCR</strong> RodoAnel
+                        <span>ouvidoria</span>
+                    </div>
+                </a>
+        </div>
+
+        <div class="clearfix"></div>
+		
+        <div class="labels">
+			<!-- <a href="http://www.grupoccr.com.br/10anosipo" class="ccr-10" target="_blank" title="CCR 10 anos">CCR 10 anos</a> -->
+            <span class="ise" title="Índice de Sustentabilidade Empresarial">Índice de Sustentabilidade Empresarial</span>
+            <span class="pacto-global" title="Nós apoiamos o pacto global">Nós apoiamos o pacto global</span>
+            <span class="ods" title="ODS">ODS</span>
+		</div>
+        
+        
+		<footer>
+			<nav>
+				<ul>
+					<!--<li><a href="">Privacidade e Termos de Uso</a></li> -->
+					<li><a href="http://www.rodoaneloeste.com.br/institucional/sobre">Sobre a CCR RodoAnel</a></li>
+					<li><a href="http://www.grupoccr.com.br/" target="_blank">Grupo CCR</a></li>
+				</ul>
+			</nav>
+            <p class="copyright">© COPYRIGHT 2020 - GRUPO CCR - Todos os direitos reservados.</p>
+			<p class="disclaimer">O Grupo CCR não tem objetivo de avaliar os serviços citados no site. Sua citação é meramente informativa.</p>
+			<a href="http://www.tesla.com.br/" target="_blank" class="signature"><img src="RodoAnel_files/logo-tesla.png" alt="TESLA"></a>
+		</footer>
+	</div>
+</footer>
+
+<div id="modal">
+	<div class="container">
+		<header>
+			<h3></h3>
+			<div class="alert"></div>
+			<a class="close"></a>
+		</header>
+		<div class="torso">
+			<div class="content"></div>
+		</div>
+		<footer>
+			<span class="notes"></span>
+		</footer>
+	</div>
+</div>
+
+<div class="video-box" style="display:none;">
+    <div class="video-box-dialog">
+        <div class="video-box-content">
+            <button type="button" class="close">×</button>
+            <div class="video-box-body">
+                <div class="video-box-responsive">
+                    <iframe id="iframe-video" class="video-embeded-responsive" allowfullscreen="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="RodoAnel_files/polyfills.js"></script>
+
+        <script type="text/javascript" src="RodoAnel_files/pt-BR.js"></script>
+    
+    
+    
+
+
+	<script type="text/javascript">
+		/* jshint forin:true, eqnull:true, noarg:true, noempty:true, eqeqeq:true, evil:true, bitwise:true, strict:true, undef:true, unused:true, curly:true, browser:true, indent:4, maxerr:50 */
+
+		// load the correct scripts
+		(function () {
+
+			'use strict';
+
+			var isLocal = /(localhost)|(192)|(127)|(tesla)/.test(document.location.hostname),
+				jsPath = '/Scripts/', // Scripts Path,
+				script;
+
+			// You can define a custom javascript file for each template
+
+    
+    script = 'services';
+
+
+			//var dataMain = jsPath + (isLocal ? 'src/' + script + '.js' : script + '.min.js'),
+			var dataMain = jsPath + 'src/' + script + '.js',
+				gaSrc = ('https:' === location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js',
+				//maplink = '//services.maplink.com.br/maplinkapi2/api.ashx?v=4&key=GKdFauFywwLPTLvrGMkvaAFgbCgRw09sGLu9QR==',
+				titleBolder = jsPath + 'src/helpers/ccrTitleBolder.js';
+
+			function addScript(src, dataMain) {
+				var tag = '<script src="' + src + '"';
+
+				if (dataMain != null) {
+					tag += ' data-main="' + dataMain + '"';
+				}
+
+				tag += "><\/script>";
+				document.write(tag);
+			}
+
+			//addScript(maplink);
+			//addScript(titleBolder);
+			//addScript(gaSrc);
+			addScript('/Scripts/src/libs/require-jquery.min.js', dataMain);
+		}());
+	</script><script src="RodoAnel_files/require-jquery.js" data-main="/Scripts/src/services.js"></script>
+
+    
+    
+
+    
+    
+
+    
+    <script type="text/javascript" src="RodoAnel_files/ccrTitleBolder.js"></script>
+
+    <script type="text/javascript" src="RodoAnel_files/jquery_002.js"></script>
+    <script type="text/javascript" src="RodoAnel_files/jquery_003.js"></script>
+    <script type="text/javascript" src="RodoAnel_files/jquery.js"></script>
+    <script src="RodoAnel_files/jquery_004.js"></script>
+    <script src="RodoAnel_files/script.js"></script>
+
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Scripts/src/ie.js"></script>
+    <![endif]-->
+
+</body></html>
+<!-- L:17.57 R:6.82 -->

@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" src="MSVia_files/analytics.js"></script><script type="text/javascript" async="" src="MSVia_files/recaptcha__pt_br.js"></script><script async="" src="MSVia_files/gtm.js"></script><script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-NJ6V65');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		
+        <meta name="title">
+        <meta name="keywords">
+        <meta name="description">
+
+		<link rel="shortcut icon" href="http://www.msvia.com.br/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://www.msvia.com.br/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="MSVia_files/main.css">
+
+        
+    <link rel="stylesheet" href="MSVia_files/internals.css">
+    <link rel="stylesheet" href="MSVia_files/services.css">
+    
+    <link rel="stylesheet" href="MSVia_files/station-attendance.css">
+
+
+
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="/Scripts/src/libs/IE8.js">
+			<link rel="stylesheet" href="/Content/Styles/ie.css">
+		<![endif]-->
+
+		<!--
+			<script type="text/javascript" src="/Scripts/src/libs/modernizr-2.6.1.min.js"></script>
+			<script type="text/javascript" src="/Scripts/src/libs/selectivizr-min.js"></script>
+		-->
+		<script src="MSVia_files/modernizr.js"></script>
+		<script src="MSVia_files/selectivizr-min.js"></script>
+		
+        <script src="MSVia_files/api.js" type="text/javascript"></script>
+
+		<script>
+			window.Modernizr || document.write('<script src="/Scripts/src/libs/modernizr-2.6.2.min.js"><\/script>');
+		</script>
+
+        
+    
+    <script type="text/javascript" src="MSVia_files/PluginDetect_WMP.js"></script>
+
+        
+    
+
+	<style></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services" src="MSVia_files/services.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/supportMenu" src="MSVia_files/supportMenu.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/occurrences" src="MSVia_files/occurrences.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/trafficFlow" src="MSVia_files/trafficFlow.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/pmv" src="MSVia_files/pmv.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/customScroll" src="MSVia_files/customScroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/modal" src="MSVia_files/modal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/cookies" src="MSVia_files/cookies.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/marquee" src="MSVia_files/marquee.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/event.drag" src="MSVia_files/event.js"></script></head>
+<body class="attendance-container internal  msvia">
+        <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ6V65" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+	<header>
+    <nav class="support-menu no-languages">
+        <div class="wrap">
+            <ul>
+                <li><a href="http://www.grupoccr.com.br/" target="_blank" class="ccr">Site CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/sobre/" target="_blank">Sobre a CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/empresas/" target="_blank">Empresas do Grupo</a></li>
+                <li><a href="http://ri.ccr.com.br/" target="_blank">Relações com Investidores</a></li>
+                    <li><a href="http://www.msvia.com.br/ri" class="grey-button">Relação com Investidores MSVia</a></li>
+                <li><a href="http://www.grupoccr.com.br/responsabilidade/" target="_blank">Responsabilidade Corporativa</a></li>
+                    <li class="jobs"><a href="https://jobs.kenoby.com/grupoccr" class="jobs">Trabalhe Conosco</a></li>
+                <li class="languages">
+                    <ul>
+                            <li>
+                                <a href="http://www.msvia.com.br/" class="por">Por <span>▼</span></a>
+                            </li>
+                            <li>
+                                <a href="http://en.msvia.com.br/" class="eng selected" style="border: 0px solid transparent;">Eng <span>▼</span></a>
+                            </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="black-header">
+        <div class="wrap">
+            <nav class="expand-menu">
+	<div class="content">
+		<a href="http://www.msvia.com.br/">
+			<h1 style="color: rgb(86, 86, 86);"><b>CCR</b> MSVia</h1>
+		</a>
+	</div>
+</nav>
+<a class="expand-button">Outras concessionárias<span>▼</span></a>
+<ul class="concessionaries">
+            <li><a href="http://www.novadutra.com.br/" target="_blank"><b>CCR</b> NovaDutra</a></li>
+            <li><a href="http://www.rodoviadoslagos.com.br/" target="_blank"><b>CCR</b> ViaLagos</a></li>
+            <li><a href="http://www.rodonorte.com.br/" target="_blank"><b>CCR</b> RodoNorte</a></li>
+            <li><a href="http://www.autoban.com.br/" target="_blank"><b>CCR</b> AutoBAn</a></li>
+            <li><a href="http://www.viaoeste.com.br/" target="_blank"><b>CCR</b> ViaOeste</a></li>
+            <li><a href="http://www.rodoaneloeste.com.br/" target="_blank"><b>CCR</b> RodoAnel</a></li>
+            <li><a href="http://www.spvias.com.br/" target="_blank"><b>CCR</b> SPVias</a></li>
+            <li><a href="http://www.ccrviasul.com.br/" target="_blank"><b>CCR</b> ViaSul</a></li>
+	<li><a class="other-portals">Outras concessionárias<span>▲</span></a></li>
+</ul>
+
+                <h3>Veja abaixo as condições da rodovia</h3>
+                <div id="mini-map"><div class="occurrence" style="left: 23px; top: 57px;"><a class="icon green"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-163/MS</h4><br><p><b>Sentido:</b> Norte</p><br><p><b>km inicial: </b>0</p><br><p><b>km final: </b>847.2</p><br><p>Pista sentido Norte com Tráfego Livre</p></div><footer></footer></div></div><div class="occurrence" style="left: 669px; top: 64px;"><a class="icon green"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>BR-163/MS</h4><br><p><b>Sentido:</b> Sul</p><br><p><b>km inicial: </b>847.2</p><br><p><b>km final: </b>0</p><br><p>Pista sentido Sul com Tráfego Livre</p></div><footer></footer></div></div><div id="subtitle-green"><span class="icon"></span><span class="txt">TRÁFEGO NORMAL</span></div></div>
+        </div>
+    </div>
+</header>
+<div id="pmv">
+    <div class="wrap">
+        <span class="pmv-text"><span class="marquee">
+            <!-- ajax content -->
+        </span></span>
+        <div class="alert">
+        </div>
+    </div>
+</div>
+
+	
+
+
+
+
+
+
+
+<section id="teaser">
+	<div class="wrap">
+		<h3>Serviços</h3>
+	</div>
+</section>
+
+<section id="torso">
+
+	<div class="wrap">
+		<aside id="sectionNav">
+			<ul>
+                        <li><a href="http://www.msvia.com.br/sau-atendimento-usuario">SAU – Atendimento ao Usuário</a></li>
+                        <li><a href="http://www.msvia.com.br/tarifas">Tarifas de pedágio</a></li>
+                        <li><a href="http://www.msvia.com.br/servicos/cobranca-automatica">Cobrança Automática</a></li>
+                        <li><a href="http://www.msvia.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.msvia.com.br/seguranca">Dicas de Segurança</a></li>
+                        <li><a href="http://www.msvia.com.br/links">Links Úteis</a></li>
+                        <li><a class="active" href="#" onclick="return false;" style="cursor:default;">Serviços ao Caminhoneiro</a></li>
+			</ul>
+                <a href="http://www.msvia.com.br/" class="back-home">&lt; Voltar para Home</a>
+		</aside>
+		
+        
+
+
+
+<script type="text/javascript" src="MSVia_files/jquery-1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        FillDropDownListFilters(false, null, null, null);
+
+        $('.filter-attendance select').on('change', function (event) {
+            event.preventDefault();
+
+            var city = $('#filter-city').val();
+            var direction = $('#filter-direction').val();
+            var service = $('#filter-service').val();
+
+            FillDropDownListFilters(true, city, direction, service);
+        });
+    });
+
+    function StationAttendance(city, direction, service) {
+        $('#station-attendance-container').hide();
+        $('#msg-wait').show();
+
+        $.ajax({
+            url: '/generic/Service/StationAttendance',
+            type: 'POST',
+            data: {
+                partial: true,
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                $('#station-attendance-container').html(data).show();
+                $('#msg-wait').hide();
+            }
+        });
+    }
+
+    function FillDropDownListFilters(loadItems, city, direction, service) {
+        $('.filter-attendance select').attr('disabled', true);
+
+        var currentCity = city;
+        var currentDirection = direction;
+        var currentService = service;
+
+        $.ajax({
+            url: '/generic/Service/ListStationAttendanceFilters',
+            type: 'POST',
+            data: {
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                if (data != null) {
+                    $('option:not(:first)', '#filter-city').remove();
+                    $('option:not(:first)', '#filter-direction').remove();
+                    $('option:not(:first)', '#filter-service').remove();
+
+                    $.each(data.Cities, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-city');
+                    });
+
+                    $.each(data.Directions, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-direction');
+                    });
+
+                    $.each(data.Services, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-service');
+                    });
+                }
+
+                $('#filter-city').val(currentCity);
+                $('#filter-direction').val(currentDirection);
+                $('#filter-service').val(currentService);
+
+                $('.filter-attendance select').attr('disabled', false);
+            }
+        });
+
+        if (loadItems)
+            StationAttendance(city, direction, service);
+    }
+</script>
+
+<div id="content">
+    <hgroup>
+        <h2 class="page-title">Serviços ao Caminhoneiro</h2>
+    </hgroup>
+
+    <div class="body">
+        <p>Como forma de apoiar os usuários neste momento de pandemia, o
+ Grupo CCR criou este espaço para indicar para os caminhoneiros as ações
+ e pontos de apoio nas rodovias.</p>
+
+        <div class="filter-attendance">
+            <select id="filter-city">
+                <option value="" selected="selected">Cidades</option>
+            <option value="Bandeirantes">Bandeirantes</option><option value="Caarapó">Caarapó</option><option value="Campo Grande">Campo Grande</option><option value="Coxim">Coxim</option><option value="Douradina">Douradina</option><option value="Dourados">Dourados</option><option value="Eldorado">Eldorado</option><option value="Itaquiraí">Itaquiraí</option><option value="Jaraguari">Jaraguari</option><option value="Juti">Juti</option><option value="Mundo Novo">Mundo Novo</option><option value="Naviraí">Naviraí</option><option value="Nova Alvorada do Sul">Nova Alvorada do Sul</option><option value="Pedro Gomes">Pedro Gomes</option><option value="Rio Brilhante">Rio Brilhante</option><option value="Rio Verde de Mato Grosso">Rio Verde de Mato Grosso</option><option value="São Gabriel do Oeste">São Gabriel do Oeste</option><option value="Sidrolândia">Sidrolândia</option><option value="Sonora">Sonora</option></select>
+            <select id="filter-direction">
+                <option value="" selected="selected">Direções</option>
+            <option value="Norte">Norte</option><option value="Sul">Sul</option></select>
+            <select id="filter-service">
+                <option value="" selected="selected">Serviços</option>
+            <option value="Alimentação">Alimentação</option><option value="Autoelétrica">Autoelétrica</option><option value="Borracharia">Borracharia</option><option value="Ponto de Parada">Ponto de Parada</option><option value="Posto de Combustível">Posto de Combustível</option></select>
+        </div>
+
+        <div id="msg-wait" style="display:none;">AGUARDE</div>
+        <div id="station-attendance-container">
+            <script type="text/javascript">
+    $(document).ready(function () {
+        var tab;
+
+        $('.exchangetab').hide();
+        $('.exchangetab:first').show();
+        $('.tabs li a:first').addClass('active');
+
+        if ($('.exchangetab').length > 1) {
+            $('.toll-container').addClass('with-tabs');
+        }
+
+
+        $('.tabs li a').on('click', function () {
+            tab = $(this).attr('href');
+            $('.tabs li a').removeClass('active');
+            $(this).addClass('active');
+            $('.exchangetab').hide();
+            $(tab).show();
+
+            return false;
+        });
+    });
+</script>
+
+<div>
+
+    <div class="tabs">
+        <ul>
+                <li><a href="#road-br-163-ms" class="active">BR-163/MS</a></li>
+        </ul>
+    </div>
+
+        <div class="exchangetab attendance-table" id="road-br-163-ms" style="display: flex;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 23
+                        <span>Mundo Novo - Sul</span>
+                        <span>Autoposto Tio Sam</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 39
+                        <span>Eldorado - Norte</span>
+                        <span>Autoposto Diego</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 40
+                        <span>Eldorado - Sul</span>
+                        <span>Autoposto Trevo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 77
+                        <span>Itaquiraí - Norte</span>
+                        <span>Posto Fronteira</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 77
+                        <span>Itaquiraí - Norte</span>
+                        <span>Posto Heloá</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 77
+                        <span>Itaquiraí - Norte</span>
+                        <span>Posto Pagé</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 77
+                        <span>Itaquiraí - Norte</span>
+                        <span>Posto Sete</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 121
+                        <span>Naviraí - Norte</span>
+                        <span>Posto Morumbi</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 171
+                        <span>Juti - Norte</span>
+                        <span>Autoposto Sabiá</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 172
+                        <span>Juti - Norte</span>
+                        <span>Posto Nova Geração</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 206
+                        <span>Caarapó - Norte</span>
+                        <span>Posto São Fernando</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 207
+                        <span>Caarapó - Sul</span>
+                        <span>Posto Bela Vista</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 208
+                        <span>Caarapó - Norte</span>
+                        <span>Autoposto Baena</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 208
+                        <span>Caarapó - Sul</span>
+                        <span>Posto Brasil</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 246
+                        <span>Dourados - Sul</span>
+                        <span>Autoposto Capela</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 266
+                        <span>Dourados - Sul</span>
+                        <span>Posto da Base</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 268
+                        <span>Dourados - Norte</span>
+                        <span>Posto BR 163</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 286
+                        <span>Douradina - Sul</span>
+                        <span>Posto Bela Vista</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 324
+                        <span>Rio Brilhante - Norte</span>
+                        <span>Posto Entre Rios</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 324
+                        <span>Rio Brilhante - Sul</span>
+                        <span>Posto Platinão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 339
+                        <span>Rio Brilhante - Norte</span>
+                        <span>Posto Guaíba</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 365
+                        <span>Nova Alvorada do Sul - Norte</span>
+                        <span>Autoposto Trevão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 408
+                        <span>Sidrolândia - Sul</span>
+                        <span>Posto Eucalipto</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 455
+                        <span>Campo Grande - Sul</span>
+                        <span>Posto Platinão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 457
+                        <span>Campo Grande - Sul</span>
+                        <span>Posto Savana</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 462
+                        <span>Campo Grande - Norte</span>
+                        <span>Posto Kátia Locatelli</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 469
+                        <span>Campo Grande - Norte</span>
+                        <span>Posto Pinhalzinho</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 475
+                        <span>Campo Grande - Norte</span>
+                        <span>Posto América</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 478
+                        <span>Campo Grande - Norte</span>
+                        <span>Posto Caravágio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 483
+                        <span>Campo Grande - Norte</span>
+                        <span>Posto Ideal</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 492
+                        <span>Campo Grande - Sul</span>
+                        <span>Posto Arara Azul</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 503
+                        <span>Jaraguari - Sul</span>
+                        <span>Zitão Autoposto</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 504
+                        <span>Jaraguari - Norte</span>
+                        <span>Posto Amigão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 514
+                        <span>Jaraguari - Norte</span>
+                        <span>Posto Carretão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 523
+                        <span>Jaraguari - Sul</span>
+                        <span>Posto Campeão</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 548
+                        <span>Bandeirantes - Norte</span>
+                        <span>Posto Raffa</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 615
+                        <span>São Gabriel do Oeste - Norte</span>
+                        <span>Posto Dragão Diesel</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 615
+                        <span>São Gabriel do Oeste - Sul</span>
+                        <span>Posto San Martin</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 615
+                        <span>São Gabriel do Oeste - Sul</span>
+                        <span>Santa Rosa Autoposto</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 638
+                        <span>São Gabriel do Oeste - Norte</span>
+                        <span>Posto San Martin II</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 679
+                        <span>Rio Verde de Mato Grosso - Sul</span>
+                        <span>Posto 2007</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 681
+                        <span>Rio Verde de Mato Grosso - Norte</span>
+                        <span>Posto Pasoline</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 726
+                        <span>Coxim - Norte</span>
+                        <span>Posto Faedo</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 727
+                        <span>Coxim - Sul</span>
+                        <span>Autoposto Pantanal</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 730
+                        <span>Coxim - Norte</span>
+                        <span>Autoposto Taquari</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 731
+                        <span>Coxim - Sul</span>
+                        <span>Autoposto Luzitano</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 767
+                        <span>Coxim - Sul</span>
+                        <span>Autoposto Recreio</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 786
+                        <span>Coxim - Sul</span>
+                        <span>Posto Pegoraro</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 808
+                        <span>Pedro Gomes - Norte</span>
+                        <span>Autoposto Piquiry</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 837
+                        <span>Sonora - Sul</span>
+                        <span>Posto Nova Bréscia</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Posto de Combustível</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 01/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+		
+		<div style="clear:both"></div>
+	</div>	
+</section>
+	<footer>
+	<div class="wrap">
+            <div class="about list">
+			    <h3>CCR MSVia</h3>
+			    <ul>
+                        <li><a href="http://www.msvia.com.br/institucional/">Covid-19</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/sobre">Sobre a CCR MSVia</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/programa-de-compliance">Programa de Compliance</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/crencas-valores">Crenças e Valores</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/nossos-numeros">Nossos Números</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/investimentos">Investimentos</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/transparencia-regulatoria">Transparência Regulatória</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/transparencia-fiscal">Transparência Fiscal</a></li>
+                        <li><a href="http://www.msvia.com.br/institucional/trabalhe-conosco">Trabalhe Conosco</a></li>
+			    </ul>
+		    </div>
+		
+            <div class="services list">
+			    <h3>Serviços</h3>
+			    <ul>
+                        <li><a href="http://www.msvia.com.br/sau-atendimento-usuario">SAU – Atendimento ao Usuário</a></li>
+                        <li><a href="http://www.msvia.com.br/tarifas">Tarifas de pedágio</a></li>
+                        <li><a href="http://www.msvia.com.br/servicos/cobranca-automatica">Cobrança Automática</a></li>
+                        <li><a href="http://www.msvia.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.msvia.com.br/seguranca">Dicas de Segurança</a></li>
+                        <li><a href="http://www.msvia.com.br/links">Links Úteis</a></li>
+                        <li><a href="http://www.msvia.com.br/servicos-ao-caminhoneiro">Serviços ao Caminhoneiro</a></li>
+                    			    </ul>
+		    </div>
+		
+
+        
+            <div class="press list">
+			    <h3>Notícias da CCR MSVia</h3>
+			    <ul>
+                        <li><a href="http://www.msvia.com.br/noticias">Notícias</a></li>
+                                            <li><a href="http://www.msvia.com.br/revistas">Revistas</a></li>
+			    </ul>
+		    </div>
+		
+        <div class="contact-box">
+                <div class="contact list">
+			        <h3>Fale conosco</h3>
+			        <ul>
+                            <li><a href="http://www.msvia.com.br/contato">Contato</a></li>
+                            <li><a href="http://www.msvia.com.br/perguntas-frequentes">Perguntas Frequentes</a></li>
+                            <li><a href="http://www.msvia.com.br/consulte-seu-chamado">Consulte seu Chamado</a></li>
+			        </ul>
+		        </div>
+		    
+            <div class="links">
+                    <a href="http://www.msvia.com.br/ri" class="grey-button">Relação com Investidores</a>
+
+                    <a href="https://recibodopedagio.com.br/?concessao=msvia" class="grey-button" target="_blank">Documento Fiscal</a>
+
+                    <a href="https://jobs.kenoby.com/grupoccr" class="grey-button red" target="_blank">Trabalhe Conosco</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+                <div class="phone-0800">Disque CCR MSVia<span>0800 648 0163</span></div>
+            
+        
+        </div>
+
+        <div class="clearfix"></div>
+		
+        <div class="labels">
+			<!-- <a href="http://www.grupoccr.com.br/10anosipo" class="ccr-10" target="_blank" title="CCR 10 anos">CCR 10 anos</a> -->
+            <span class="ise" title="Índice de Sustentabilidade Empresarial">Índice de Sustentabilidade Empresarial</span>
+            <span class="pacto-global" title="Nós apoiamos o pacto global">Nós apoiamos o pacto global</span>
+            <span class="ods" title="ODS">ODS</span>
+		</div>
+        
+        
+		<footer>
+			<nav>
+				<ul>
+					<!--<li><a href="">Privacidade e Termos de Uso</a></li> -->
+					<li><a href="http://www.msvia.com.br/institucional/sobre">Sobre a CCR MSVia</a></li>
+					<li><a href="http://www.grupoccr.com.br/" target="_blank">Grupo CCR</a></li>
+				</ul>
+			</nav>
+            <p class="copyright">© COPYRIGHT 2020 - GRUPO CCR - Todos os direitos reservados.</p>
+			<p class="disclaimer">O Grupo CCR não tem objetivo de avaliar os serviços citados no site. Sua citação é meramente informativa.</p>
+			<a href="http://www.tesla.com.br/" target="_blank" class="signature"><img src="MSVia_files/logo-tesla.png" alt="TESLA"></a>
+		</footer>
+	</div>
+</footer>
+
+<div id="modal">
+	<div class="container">
+		<header>
+			<h3></h3>
+			<div class="alert"></div>
+			<a class="close"></a>
+		</header>
+		<div class="torso">
+			<div class="content"></div>
+		</div>
+		<footer>
+			<span class="notes"></span>
+		</footer>
+	</div>
+</div>
+
+<div class="video-box" style="display:none;">
+    <div class="video-box-dialog">
+        <div class="video-box-content">
+            <button type="button" class="close">×</button>
+            <div class="video-box-body">
+                <div class="video-box-responsive">
+                    <iframe id="iframe-video" class="video-embeded-responsive" allowfullscreen="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="MSVia_files/polyfills.js"></script>
+
+        <script type="text/javascript" src="MSVia_files/pt-BR.js"></script>
+    
+    
+    
+
+
+	<script type="text/javascript">
+		/* jshint forin:true, eqnull:true, noarg:true, noempty:true, eqeqeq:true, evil:true, bitwise:true, strict:true, undef:true, unused:true, curly:true, browser:true, indent:4, maxerr:50 */
+
+		// load the correct scripts
+		(function () {
+
+			'use strict';
+
+			var isLocal = /(localhost)|(192)|(127)|(tesla)/.test(document.location.hostname),
+				jsPath = '/Scripts/', // Scripts Path,
+				script;
+
+			// You can define a custom javascript file for each template
+
+    
+    script = 'services';
+
+
+			//var dataMain = jsPath + (isLocal ? 'src/' + script + '.js' : script + '.min.js'),
+			var dataMain = jsPath + 'src/' + script + '.js',
+				gaSrc = ('https:' === location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js',
+				//maplink = '//services.maplink.com.br/maplinkapi2/api.ashx?v=4&key=GKdFauFywwLPTLvrGMkvaAFgbCgRw09sGLu9QR==',
+				titleBolder = jsPath + 'src/helpers/ccrTitleBolder.js';
+
+			function addScript(src, dataMain) {
+				var tag = '<script src="' + src + '"';
+
+				if (dataMain != null) {
+					tag += ' data-main="' + dataMain + '"';
+				}
+
+				tag += "><\/script>";
+				document.write(tag);
+			}
+
+			//addScript(maplink);
+			//addScript(titleBolder);
+			//addScript(gaSrc);
+			addScript('/Scripts/src/libs/require-jquery.min.js', dataMain);
+		}());
+	</script><script src="MSVia_files/require-jquery.js" data-main="/Scripts/src/services.js"></script>
+
+    
+    
+
+    
+    
+
+    
+    <script type="text/javascript" src="MSVia_files/ccrTitleBolder.js"></script>
+
+    <script type="text/javascript" src="MSVia_files/jquery_002.js"></script>
+    <script type="text/javascript" src="MSVia_files/jquery_003.js"></script>
+    <script type="text/javascript" src="MSVia_files/jquery_004.js"></script>
+    <script src="MSVia_files/jquery.js"></script>
+    <script src="MSVia_files/script.js"></script>
+
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Scripts/src/ie.js"></script>
+    <![endif]-->
+
+</body></html>
+<!-- L:20.98 R:6.76 -->

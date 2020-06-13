@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" src="SPvias_files/ga.js"></script><script type="text/javascript" async="" src="SPvias_files/recaptcha__pt_br.js"></script><script async="" src="SPvias_files/gtm.js"></script><script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })
+        (window, document, 'script', 'dataLayer', 'GTM-3SJF');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		
+        <meta name="title">
+        <meta name="keywords">
+        <meta name="description">
+
+		<link rel="shortcut icon" href="http://www.spvias.com.br/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://www.spvias.com.br/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="SPvias_files/main.css">
+
+        
+    <link rel="stylesheet" href="SPvias_files/internals.css">
+    <link rel="stylesheet" href="SPvias_files/services.css">
+    
+    <link rel="stylesheet" href="SPvias_files/station-attendance.css">
+
+
+
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="/Scripts/src/libs/IE8.js">
+			<link rel="stylesheet" href="/Content/Styles/ie.css">
+		<![endif]-->
+
+		<!--
+			<script type="text/javascript" src="/Scripts/src/libs/modernizr-2.6.1.min.js"></script>
+			<script type="text/javascript" src="/Scripts/src/libs/selectivizr-min.js"></script>
+		-->
+		<script src="SPvias_files/modernizr.js"></script>
+		<script src="SPvias_files/selectivizr-min.js"></script>
+		
+        <script src="SPvias_files/api.js" type="text/javascript"></script>
+
+		<script>
+			window.Modernizr || document.write('<script src="/Scripts/src/libs/modernizr-2.6.2.min.js"><\/script>');
+		</script>
+
+        
+    
+    <script type="text/javascript" src="SPvias_files/PluginDetect_WMP.js"></script>
+
+        
+    
+
+	<style></style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services" src="SPvias_files/services.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/supportMenu" src="SPvias_files/supportMenu.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/occurrences" src="SPvias_files/occurrences.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/trafficFlow" src="SPvias_files/trafficFlow.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/pmv" src="SPvias_files/pmv.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/customScroll" src="SPvias_files/customScroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/modal" src="SPvias_files/modal.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/cookies" src="SPvias_files/cookies.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/marquee" src="SPvias_files/marquee.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/event.drag" src="SPvias_files/event.js"></script></head>
+<body class="attendance-container internal  spvias">
+        <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-3SJF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+	<header>
+    <nav class="support-menu no-languages">
+        <div class="wrap">
+            <ul>
+                <li><a href="http://www.grupoccr.com.br/" target="_blank" class="ccr">Site CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/sobre/" target="_blank">Sobre a CCR</a></li>
+                <li><a href="http://www.grupoccr.com.br/empresas/" target="_blank">Empresas do Grupo</a></li>
+                <li><a href="http://ri.ccr.com.br/" target="_blank">Relações com Investidores</a></li>
+                    <li><a href="http://www.spvias.com.br/ri" class="grey-button">Relação com Investidores SPVias</a></li>
+                <li><a href="http://www.grupoccr.com.br/responsabilidade/" target="_blank">Responsabilidade Corporativa</a></li>
+                    <li class="jobs"><a href="https://jobs.kenoby.com/grupoccr" class="jobs">Trabalhe Conosco</a></li>
+                <li class="languages">
+                    <ul>
+                            <li>
+                                <a href="http://www.spvias.com.br/" class="por">Por <span>▼</span></a>
+                            </li>
+                            <li>
+                                <a href="http://en.spvias.com.br/" class="eng selected" style="border: 0px solid transparent;">Eng <span>▼</span></a>
+                            </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="black-header">
+        <div class="wrap">
+            <nav class="expand-menu">
+	<div class="content">
+		<a href="http://www.spvias.com.br/">
+			<h1 style="color: rgb(86, 86, 86);"><b>CCR</b> SPVias</h1>
+		</a>
+	</div>
+</nav>
+<a class="expand-button">Outras concessionárias<span>▼</span></a>
+<ul class="concessionaries">
+            <li><a href="http://www.novadutra.com.br/" target="_blank"><b>CCR</b> NovaDutra</a></li>
+            <li><a href="http://www.rodoviadoslagos.com.br/" target="_blank"><b>CCR</b> ViaLagos</a></li>
+            <li><a href="http://www.rodonorte.com.br/" target="_blank"><b>CCR</b> RodoNorte</a></li>
+            <li><a href="http://www.autoban.com.br/" target="_blank"><b>CCR</b> AutoBAn</a></li>
+            <li><a href="http://www.viaoeste.com.br/" target="_blank"><b>CCR</b> ViaOeste</a></li>
+            <li><a href="http://www.rodoaneloeste.com.br/" target="_blank"><b>CCR</b> RodoAnel</a></li>
+            <li><a href="http://www.msvia.com.br/" target="_blank"><b>CCR</b> MSVia</a></li>
+            <li><a href="http://www.ccrviasul.com.br/" target="_blank"><b>CCR</b> ViaSul</a></li>
+	<li><a class="other-portals">Outras concessionárias<span>▲</span></a></li>
+</ul>
+
+                <h3>Veja abaixo as condições das rodovias</h3>
+                <div id="mini-map"><div class="occurrence" style="left: 111px; top: 35px;"><a class="icon orange"></a><div class="info-window"><header><a class="close"></a></header><div class="torso"><h4>SP 255 - Rodovia João Mellão</h4><br><p><b>Sentido:</b> SP - 255 Norte</p><br><p><b>km inicial: </b>278</p><br><p><b>km final: </b>278.5</p><br><p><b>Motivo:</b> Obras na Pista</p><br><p><b>Cidade:</b> Avaré</p><br><p>Pista sentido SP - 255 Norte com obras Obs: Sentido capital//
+Obras de reparo na ponte//
+Sistema pare e siga.</p></div><footer></footer></div></div><div id="subtitle-green"><span class="icon"></span><span class="txt">Tráfego normal</span></div></div>
+        </div>
+    </div>
+</header>
+<div id="pmv">
+    <div class="wrap">
+        <span class="pmv-text"><span class="marquee">
+            <!-- ajax content -->
+        </span></span>
+        <div class="alert">
+        </div>
+    </div>
+</div>
+
+	
+
+
+
+
+
+
+
+<section id="teaser">
+	<div class="wrap">
+		<h3>Serviços</h3>
+	</div>
+</section>
+
+<section id="torso">
+
+	<div class="wrap">
+		<aside id="sectionNav">
+			<ul>
+                        <li><a href="http://www.spvias.com.br/sos-usuario">SOS Usuário</a></li>
+                        <li><a href="http://www.spvias.com.br/tarifas">Tarifas de Pedágio</a></li>
+                        <li><a href="http://www.spvias.com.br/posto-de-pesagem">Posto de Pesagem</a></li>
+                        <li><a href="http://www.spvias.com.br/servicos/cobranca-automatica">Cobrança Automática</a></li>
+                        <li><a href="http://www.spvias.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.spvias.com.br/seguranca">Dicas de Segurança</a></li>
+                        <li><a href="http://www.spvias.com.br/dicas-turismo">Dicas de Turismo</a></li>
+                        <li><a href="http://www.spvias.com.br/links">Links Úteis</a></li>
+                        <li><a class="active" href="#" onclick="return false;" style="cursor:default;">Serviços ao Caminhoneiro</a></li>
+			</ul>
+                <a href="http://www.spvias.com.br/" class="back-home">&lt; Voltar para Home</a>
+		</aside>
+		
+        
+
+
+
+<script type="text/javascript" src="SPvias_files/jquery-1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        FillDropDownListFilters(false, null, null, null);
+
+        $('.filter-attendance select').on('change', function (event) {
+            event.preventDefault();
+
+            var city = $('#filter-city').val();
+            var direction = $('#filter-direction').val();
+            var service = $('#filter-service').val();
+
+            FillDropDownListFilters(true, city, direction, service);
+        });
+    });
+
+    function StationAttendance(city, direction, service) {
+        $('#station-attendance-container').hide();
+        $('#msg-wait').show();
+
+        $.ajax({
+            url: '/generic/Service/StationAttendance',
+            type: 'POST',
+            data: {
+                partial: true,
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                $('#station-attendance-container').html(data).show();
+                $('#msg-wait').hide();
+            }
+        });
+    }
+
+    function FillDropDownListFilters(loadItems, city, direction, service) {
+        $('.filter-attendance select').attr('disabled', true);
+
+        var currentCity = city;
+        var currentDirection = direction;
+        var currentService = service;
+
+        $.ajax({
+            url: '/generic/Service/ListStationAttendanceFilters',
+            type: 'POST',
+            data: {
+                city: city,
+                direction: direction,
+                service: service
+            },
+            success: function (data) {
+                if (data != null) {
+                    $('option:not(:first)', '#filter-city').remove();
+                    $('option:not(:first)', '#filter-direction').remove();
+                    $('option:not(:first)', '#filter-service').remove();
+
+                    $.each(data.Cities, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-city');
+                    });
+
+                    $.each(data.Directions, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-direction');
+                    });
+
+                    $.each(data.Services, function () {
+                        $('<option />').val(this).text(this).appendTo('#filter-service');
+                    });
+                }
+
+                $('#filter-city').val(currentCity);
+                $('#filter-direction').val(currentDirection);
+                $('#filter-service').val(currentService);
+
+                $('.filter-attendance select').attr('disabled', false);
+            }
+        });
+
+        if (loadItems)
+            StationAttendance(city, direction, service);
+    }
+</script>
+
+<div id="content">
+    <hgroup>
+        <h2 class="page-title">Serviços ao Caminhoneiro</h2>
+    </hgroup>
+
+    <div class="body">
+        <p>Como forma de apoiar os usuários neste momento de pandemia, o
+ Grupo CCR criou este espaço para indicar para os caminhoneiros as ações
+ e pontos de apoio nas rodovias.</p>
+
+        <div class="filter-attendance">
+            <select id="filter-city">
+                <option value="" selected="selected">Cidades</option>
+            <option value="Águas de Santa Bárbara">Águas de Santa Bárbara</option><option value="Alambari">Alambari</option><option value="Araçoiaba da Serra">Araçoiaba da Serra</option><option value="Avaré">Avaré</option><option value="Capão Bonito">Capão Bonito</option><option value="Cerqueira César">Cerqueira César</option><option value="Cesário Lange">Cesário Lange</option><option value="Iaras">Iaras</option><option value="Itapetininga">Itapetininga</option><option value="Itapeva">Itapeva</option><option value="Itararé">Itararé</option><option value="Pardinho">Pardinho</option><option value="Quadra">Quadra</option><option value="São Miguel Arcanjo">São Miguel Arcanjo</option><option value="Taquarivaí">Taquarivaí</option><option value="Tatuí">Tatuí</option></select>
+            <select id="filter-direction">
+                <option value="" selected="selected">Direções</option>
+            <option value="Leste">Leste</option><option value="Norte">Norte</option><option value="Oeste">Oeste</option><option value="Sul">Sul</option></select>
+            <select id="filter-service">
+                <option value="" selected="selected">Serviços</option>
+            <option value="Alimentação">Alimentação</option><option value="Autoelétrica">Autoelétrica</option><option value="Borracharia">Borracharia</option><option value="Ponto de Parada">Ponto de Parada</option><option value="Postos de Serviços">Postos de Serviços</option></select>
+        </div>
+
+        <div id="msg-wait" style="display:none;">AGUARDE</div>
+        <div id="station-attendance-container">
+            <script type="text/javascript">
+    $(document).ready(function () {
+        var tab;
+
+        $('.exchangetab').hide();
+        $('.exchangetab:first').show();
+        $('.tabs li a:first').addClass('active');
+
+        if ($('.exchangetab').length > 1) {
+            $('.toll-container').addClass('with-tabs');
+        }
+
+
+        $('.tabs li a').on('click', function () {
+            tab = $(this).attr('href');
+            $('.tabs li a').removeClass('active');
+            $(this).addClass('active');
+            $('.exchangetab').hide();
+            $(tab).show();
+
+            return false;
+        });
+    });
+</script>
+
+<div>
+
+    <div class="tabs">
+        <ul>
+                <li><a href="#road-sp-127" class="active">SP 127</a></li>
+                <li><a href="#road-sp-255">SP 255</a></li>
+                <li><a href="#road-sp-258">SP 258 </a></li>
+                <li><a href="#road-sp-270">SP 270</a></li>
+                <li><a href="#road-sp-280">SP 280</a></li>
+        </ul>
+    </div>
+
+        <div class="exchangetab attendance-table" id="road-sp-127" style="display: flex;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 108.30
+                        <span>Tatuí - Norte</span>
+                        <span>Posto Astória </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 112.20
+                        <span>Tatuí - Sul</span>
+                        <span>Auto Posto Imperador </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 112.30
+                        <span>Tatuí - Norte</span>
+                        <span>Posto 70 </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 113.10
+                        <span>Tatuí - Norte</span>
+                        <span>Auto Posto Trevo </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 122.20
+                        <span>Tatuí - Sul</span>
+                        <span>Auto Posto Pavão </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 167.80
+                        <span>Itapetininga - Sul</span>
+                        <span>Posto Rodo Sul </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 179
+                        <span>Itapetininga - Norte</span>
+                        <span>Posto Irmãos Carvalho </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 190
+                        <span>São Miguel Arcanjo - Norte</span>
+                        <span>Posto Marquezin </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 198
+                        <span>Capão Bonito - Sul</span>
+                        <span>Posto 188</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 212
+                        <span>Capão Bonito - Norte</span>
+                        <span>Posto Paulistão </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 213.80
+                        <span>Capão Bonito - Norte</span>
+                        <span>Auto Posto Vantroba </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="exchangetab attendance-table" id="road-sp-255" style="display: none;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 248.07
+                        <span>Avaré - Norte</span>
+                        <span>Posto Avarezão (Antigo Titãn) </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 259
+                        <span>Avaré - Norte</span>
+                        <span>Rodo Rede Bizungão II </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 271.20
+                        <span>Avaré - Norte</span>
+                        <span>Auto Posto Bizungão Ilha Verde </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="exchangetab attendance-table" id="road-sp-258" style="display: none;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 263.40
+                        <span>Taquarivaí - Leste</span>
+                        <span>Auto Posto Mercosul </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 263.80
+                        <span>Taquarivaí - Oeste</span>
+                        <span>Auto Posto União </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 284
+                        <span>Itapeva - Oeste</span>
+                        <span>Posto Expectro </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 288
+                        <span>Itapeva - Oeste</span>
+                        <span>Auto Posto Explanada Zanforlin</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 295
+                        <span>Itapeva - Leste</span>
+                        <span>Posto Amigão </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 339.40
+                        <span>Itararé - Leste</span>
+                        <span>Auto Posto Estradão </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="exchangetab attendance-table" id="road-sp-270" style="display: none;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 127.80
+                        <span>Araçoiaba da Serra - Leste</span>
+                        <span>Posto Blue </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 140
+                        <span>Alambari - Leste</span>
+                        <span>Posto Cerrado </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 159
+                        <span>Itapetininga - Leste</span>
+                        <span>Posto Siqueleiro </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 159
+                        <span>Itapetininga - Oeste</span>
+                        <span>Posto Siqueleiro </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 165
+                        <span>Itapetininga - Oeste</span>
+                        <span>Auto Posto Camarão </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 167.50
+                        <span>Itapetininga - Oeste</span>
+                        <span>Posto Siqueleiro Bela Vista </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 168.50
+                        <span>Itapetininga - Leste</span>
+                        <span>Auto Posto Alciate </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="exchangetab attendance-table" id="road-sp-280" style="display: none;">
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 143
+                        <span>Cesário Lange - Leste</span>
+                        <span>Posto Castelo </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 146
+                        <span>Cesário Lange - Oeste</span>
+                        <span>Posto Frango Assado</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 149
+                        <span>Quadra - Leste</span>
+                        <span>Rei da Castelo II </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 157
+                        <span>Quadra - Leste</span>
+                        <span>Auto Posto Quadra </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 191
+                        <span>Pardinho - Leste</span>
+                        <span>Posto Rodoserv Star </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 193
+                        <span>Pardinho - Oeste</span>
+                        <span>Posto Rodoserv Stop </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 198
+                        <span>Pardinho - Leste</span>
+                        <span>Rede Graal Maristela </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 198
+                        <span>Pardinho - Oeste</span>
+                        <span>Posto Rodo Serv Sorriso </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 247.50
+                        <span>Avaré - Leste</span>
+                        <span>Rodo Rede Bizungão III </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Autoelétrica</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 265
+                        <span>Cerqueira César - Leste</span>
+                        <span>Posto Toluca I </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 265.15
+                        <span>Cerqueira César - Leste</span>
+                        <span>Posto Toluca II </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 280
+                        <span>Iaras - Oeste</span>
+                        <span>Posto Taquari </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Borracharia</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 281.50
+                        <span>Iaras - Leste</span>
+                        <span>Posto Kassis </span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="attendance-table-item">
+                    <h3>
+                        KM 293.60
+                        <span>Águas de Santa Bárbara - Oeste</span>
+                        <span>Posto Plaza</span>
+                    </h3>
+                    <div class="attendance-table-content">
+                        <ul>
+                                    <li><strong>Alimentação</strong></li>
+                                    <li><strong>Ponto de Parada</strong></li>
+                                    <li><strong>Postos de Serviços</strong></li>
+
+                        </ul>
+                        <div class="attendance-table-bottom">
+                            <span class="update"><strong>Atualizado em:</strong> 03/04/2020</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+        </div>
+    </div>
+</div>
+		
+		<div style="clear:both"></div>
+	</div>	
+</section>
+	<footer>
+	<div class="wrap">
+            <div class="about list">
+			    <h3>CCR SPVias</h3>
+			    <ul>
+                        <li><a href="http://www.spvias.com.br/institucional/">Sobre a CCR SPVias</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/programa-de-compliance">Programa de Compliance</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/crencas-valores">Crenças e Valores</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/nossos-numeros">Nossos Números</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/investimentos">Investimentos</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/transparencia-regulatoria">Transparência Regulatória</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/reconhecimento">Reconhecimento</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/transparencia-fiscal">Transparência Fiscal</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/trabalhe-conosco">Trabalhe Conosco</a></li>
+                        <li><a href="http://www.spvias.com.br/institucional/politica-de-sistema-de-gestao-integrado">Política do Sistema de Gestão Integrado</a></li>
+			    </ul>
+		    </div>
+		
+            <div class="services list">
+			    <h3>Serviços</h3>
+			    <ul>
+                        <li><a href="http://www.spvias.com.br/sos-usuario">SOS Usuário</a></li>
+                        <li><a href="http://www.spvias.com.br/tarifas">Tarifas de Pedágio</a></li>
+                        <li><a href="http://www.spvias.com.br/posto-de-pesagem">Posto de Pesagem</a></li>
+                        <li><a href="http://www.spvias.com.br/servicos/cobranca-automatica">Cobrança Automática</a></li>
+                        <li><a href="http://www.spvias.com.br/centro-de-controle">Centro de Controle Operacional</a></li>
+                        <li><a href="http://www.spvias.com.br/seguranca">Dicas de Segurança</a></li>
+                        <li><a href="http://www.spvias.com.br/dicas-turismo">Dicas de Turismo</a></li>
+                        <li><a href="http://www.spvias.com.br/links">Links Úteis</a></li>
+                        <li><a href="http://www.spvias.com.br/servicos-ao-caminhoneiro">Serviços ao Caminhoneiro</a></li>
+                    			    </ul>
+		    </div>
+		
+
+            <div class="sustainability list">
+			    <h3>Sustentabilidade</h3>
+			    <ul>
+                        <li><a href="http://www.spvias.com.br/sustentabilidade">Investimento Social</a></li>
+				    <li>
+					    <ul>
+                                <li>- <a href="http://www.spvias.com.br/sustentabilidade/ambiental">Ambiental</a></li>
+                                <li>- <a href="http://www.spvias.com.br/sustentabilidade/cultural">Cultural</a></li>
+                                <li>- <a href="http://www.spvias.com.br/sustentabilidade/educativo">Educativo</a></li>
+                                <li>- <a href="http://www.spvias.com.br/sustentabilidade/saude">Saúde</a></li>
+                                <li>- <a href="http://www.spvias.com.br/sustentabilidade/social">Social</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+		    </div>
+        
+            <div class="press list">
+			    <h3>Notícias da CCR SPVias</h3>
+			    <ul>
+                        <li><a href="http://www.spvias.com.br/noticias">Notícias</a></li>
+                        <li><a href="http://www.spvias.com.br/agenda">Agenda</a></li>
+                        <li><a href="http://www.spvias.com.br/galeria-de-fotos">Galeria de Fotos</a></li>
+                    			    </ul>
+		    </div>
+		
+        <div class="contact-box">
+                <div class="contact list">
+			        <h3>Fale Conosco</h3>
+			        <ul>
+                            <li><a href="http://www.spvias.com.br/contato">Contato Ouvidoria</a></li>
+                            <li><a href="http://www.spvias.com.br/perguntas-frequentes">Perguntas Frequentes</a></li>
+                            <li><a href="http://www.spvias.com.br/pesquisa-de-satisfacao">Pesquisa de Satisfação</a></li>
+                            <li><a href="http://www.spvias.com.br/fale-conosco/relatorios-pesquisa-de-satisfacao">Relatórios Pesquisa de Satisfação</a></li>
+                            <li><a href="http://www.spvias.com.br/indicadores-de-relacionamento">Indicadores de Relacionamento</a></li>
+                            <li><a href="http://www.spvias.com.br/consulte-seu-chamado">Consulte seu Chamado</a></li>
+			        </ul>
+		        </div>
+		    
+            <div class="links">
+                    <a href="http://www.spvias.com.br/ri" class="grey-button">Relação com Investidores</a>
+
+                    <a href="https://recibodopedagio.com.br/?concessao=spvias" class="grey-button" target="_blank">Documento Fiscal</a>
+
+                    <a href="https://jobs.kenoby.com/grupoccr" class="grey-button red" target="_blank">Trabalhe Conosco</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+                <div class="phone-0800">Disque CCR SPVias<span>0800 703 50 30</span></div>
+            
+        
+                <a href="http://www.spvias.com.br/contato">
+                    <div class="talk-ombudsman">
+                        Fale com a <strong>CCR</strong> SPVias
+                        <span>ouvidoria</span>
+                    </div>
+                </a>
+        </div>
+
+        <div class="clearfix"></div>
+		
+        <div class="labels">
+			<!-- <a href="http://www.grupoccr.com.br/10anosipo" class="ccr-10" target="_blank" title="CCR 10 anos">CCR 10 anos</a> -->
+            <span class="ise" title="Índice de Sustentabilidade Empresarial">Índice de Sustentabilidade Empresarial</span>
+            <span class="pacto-global" title="Nós apoiamos o pacto global">Nós apoiamos o pacto global</span>
+            <span class="ods" title="ODS">ODS</span>
+		</div>
+        
+        
+		<footer>
+			<nav>
+				<ul>
+					<!--<li><a href="">Privacidade e Termos de Uso</a></li> -->
+					<li><a href="http://www.spvias.com.br/institucional/sobre">Sobre a CCR SPVias</a></li>
+					<li><a href="http://www.grupoccr.com.br/" target="_blank">Grupo CCR</a></li>
+				</ul>
+			</nav>
+            <p class="copyright">© COPYRIGHT 2020 - GRUPO CCR - Todos os direitos reservados.</p>
+			<p class="disclaimer">O Grupo CCR não tem objetivo de avaliar os serviços citados no site. Sua citação é meramente informativa.</p>
+			<a href="http://www.tesla.com.br/" target="_blank" class="signature"><img src="SPvias_files/logo-tesla.png" alt="TESLA"></a>
+		</footer>
+	</div>
+</footer>
+
+<div id="modal">
+	<div class="container">
+		<header>
+			<h3></h3>
+			<div class="alert"></div>
+			<a class="close"></a>
+		</header>
+		<div class="torso">
+			<div class="content"></div>
+		</div>
+		<footer>
+			<span class="notes"></span>
+		</footer>
+	</div>
+</div>
+
+<div class="video-box" style="display:none;">
+    <div class="video-box-dialog">
+        <div class="video-box-content">
+            <button type="button" class="close">×</button>
+            <div class="video-box-body">
+                <div class="video-box-responsive">
+                    <iframe id="iframe-video" class="video-embeded-responsive" allowfullscreen="" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="SPvias_files/polyfills.js"></script>
+
+        <script type="text/javascript" src="SPvias_files/pt-BR.js"></script>
+    
+    
+    
+
+
+	<script type="text/javascript">
+		/* jshint forin:true, eqnull:true, noarg:true, noempty:true, eqeqeq:true, evil:true, bitwise:true, strict:true, undef:true, unused:true, curly:true, browser:true, indent:4, maxerr:50 */
+
+		// load the correct scripts
+		(function () {
+
+			'use strict';
+
+			var isLocal = /(localhost)|(192)|(127)|(tesla)/.test(document.location.hostname),
+				jsPath = '/Scripts/', // Scripts Path,
+				script;
+
+			// You can define a custom javascript file for each template
+
+    
+    script = 'services';
+
+
+			//var dataMain = jsPath + (isLocal ? 'src/' + script + '.js' : script + '.min.js'),
+			var dataMain = jsPath + 'src/' + script + '.js',
+				gaSrc = ('https:' === location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js',
+				//maplink = '//services.maplink.com.br/maplinkapi2/api.ashx?v=4&key=GKdFauFywwLPTLvrGMkvaAFgbCgRw09sGLu9QR==',
+				titleBolder = jsPath + 'src/helpers/ccrTitleBolder.js';
+
+			function addScript(src, dataMain) {
+				var tag = '<script src="' + src + '"';
+
+				if (dataMain != null) {
+					tag += ' data-main="' + dataMain + '"';
+				}
+
+				tag += "><\/script>";
+				document.write(tag);
+			}
+
+			//addScript(maplink);
+			//addScript(titleBolder);
+			//addScript(gaSrc);
+			addScript('/Scripts/src/libs/require-jquery.min.js', dataMain);
+		}());
+	</script><script src="SPvias_files/require-jquery.js" data-main="/Scripts/src/services.js"></script>
+
+    
+    
+
+    
+    
+
+    
+    <script type="text/javascript" src="SPvias_files/ccrTitleBolder.js"></script>
+
+    <script type="text/javascript" src="SPvias_files/jquery_003.js"></script>
+    <script type="text/javascript" src="SPvias_files/jquery_002.js"></script>
+    <script type="text/javascript" src="SPvias_files/jquery_004.js"></script>
+    <script src="SPvias_files/jquery.js"></script>
+    <script src="SPvias_files/script.js"></script>
+
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Scripts/src/ie.js"></script>
+    <![endif]-->
+
+</body></html>
+<!-- L:25.56 R:7.20 -->
