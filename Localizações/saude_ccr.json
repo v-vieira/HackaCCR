@@ -1,0 +1,29 @@
+{
+    "Fixo":{
+        "AutoBan":{
+            "Tipo":"Estrada para Saúde",
+            "Lat":-23.206412,
+            "Long":-46.926149,
+            "Funcionamento":,
+            "Serviços":"enfermagem, dentista, podologia, segurança viária",
+            "Localização":"Rodovia dos Bandeirantes (SP 348) km 56 – pista sul – sentido Capital, Jundiaí"
+        },
+        "NovaDutra":{
+            "Tipo":"Odontológico",
+            "Lat":-22.908606,
+            "Long":-45.315851,
+            "Funcionamento":"segundas e quartas-feiras: das 8h às 18h; terças e quintas-feiras: das 7h às 17h;  sextas-feiras: das 9h às 17h",
+            "Serviços":"Atendimento Odontológico",
+            "Localização":"posto de serviços Arco Íris, localizado no km 81,9 da via Dutra, na pista sentido Rio de Janeiro, em Roseira (SP)"
+        },
+        "ViaOeste":{
+            "Tipo":"Estrada para Saúde",
+            "Lat":-23.42954,
+            "Long":-47.13809,
+            "Funcionamento":"2ª a 5ª feira, das 8h às 18h e às sextas-feiras, das 8h às 17h",
+            "Serviços":"Verificação de glicemia, colesterol e pressão arterial, acuidade visual - cálculo de IMC -  consultas especializadas com enfermeiros, saúde bucal (tratamento odontológico preventivo, limpeza e restaurações), corte de cabelo e massagem bioenergética. Disponibiliza ainda aos usuários espaço com lavanderia, chuveiros, além de um amplo estacionamento para 50 carretas",
+            "Localização":"km 57 da Rodovia Castello Branco - SP 280, junto ao Posto de Serviços Quinta do Marques"
+        }
+    },
+    "Itinerário":["NovaDutra","RodoNorte","SPvias"]
+}
