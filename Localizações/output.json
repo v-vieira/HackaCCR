@@ -1,36 +1,41 @@
 {
     "autoban": {
-        "Rodovia dos Bandeirantes": {
-            "Campeão": {
+        "Rodovia": "Rodovia dos Bandeirantes",
+        "Estabelecimentos": [
+            {
+                "Nome": "Campeão",
                 "KM": "KM 28",
-                "Mao": "São Paulo - Norte",
-                "Servicos": [
+                "Sentido": "São Paulo - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Frango Assado": {
+            {
+                "Nome": "Frango Assado",
                 "KM": "KM 34",
-                "Mao": "Caieiras - Norte",
-                "Servicos": [
+                "Sentido": "Caieiras - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Praça de Pedágio Caieiras Sul": {
+            {
+                "Nome": "Praça de Pedágio Caieiras Sul",
                 "KM": "KM 36",
-                "Mao": "Caieiras - Sul",
-                "Servicos": [
+                "Sentido": "Caieiras - Sul",
+                "Serviços": [
                     "Tags"
                 ]
             },
-            "Posto Campeão": {
+            {
+                "Nome": "Posto Campeão",
                 "KM": "KM 38",
-                "Mao": "Cajamar - Sul",
-                "Servicos": [
+                "Sentido": "Cajamar - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Kit Higiene e Alimentação",
@@ -40,615 +45,686 @@
                     "Vale Marmita"
                 ]
             },
-            "Praça de Pedágio de Campo Limpo": {
+            {
+                "Nome": "Praça de Pedágio de Campo Limpo",
                 "KM": "KM 39",
-                "Mao": "Caieiras - Norte",
-                "Servicos": [
+                "Sentido": "Caieiras - Norte",
+                "Serviços": [
                     "Tags"
                 ]
             },
-            "PGF 40": {
+            {
+                "Nome": "PGF 40",
                 "KM": "KM 40",
-                "Mao": "Cajamar - Norte",
-                "Servicos": [
+                "Sentido": "Cajamar - Norte",
+                "Serviços": [
                     "Banheiros Químicos",
                     "Kit Higiene e Alimentação",
                     "Pernoite"
                 ]
             },
-            "Frango Assado 2": {
+            {
+                "Nome": "Frango Assado 2",
                 "KM": "KM 44",
-                "Mao": "Cajamar - Sul",
-                "Servicos": [
+                "Sentido": "Cajamar - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Postos de Serviços"
                 ]
             },
-            "Estrada para Saúde": {
+            {
+                "Nome": "Estrada para Saúde",
                 "KM": "KM 56",
-                "Mao": "Jundiaí - Sul",
-                "Servicos": [
+                "Sentido": "Jundiaí - Sul",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Kit Higiene e Alimentação"
                 ]
             },
-            "Graal 56": {
+            {
+                "Nome": "Graal 56",
                 "KM": "KM 56",
-                "Mao": "Jundiaí - Sul",
-                "Servicos": [
+                "Sentido": "Jundiaí - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Lago Azul": {
+            {
+                "Nome": "Lago Azul",
                 "KM": "KM 58",
-                "Mao": "Jundiaí - Norte",
-                "Servicos": [
+                "Sentido": "Jundiaí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Lago Azul 2": {
+            {
+                "Nome": "Lago Azul 2",
                 "KM": "KM 64",
-                "Mao": "Jundiaí - Sul",
-                "Servicos": [
+                "Sentido": "Jundiaí - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Campeão 2": {
+            {
+                "Nome": "Campeão 2",
                 "KM": "KM 68",
-                "Mao": "Jundiaí - Norte",
-                "Servicos": [
+                "Sentido": "Jundiaí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Campeão 2": {
+            {
+                "Nome": "Posto Campeão 2",
                 "KM": "KM 68",
-                "Mao": "Jundiaí - Norte",
-                "Servicos": [
+                "Sentido": "Jundiaí - Norte",
+                "Serviços": [
                     "Kit Higiene e Alimentação",
                     "Vale Banho",
                     "Vale Marmita"
                 ]
             },
-            "Jaal": {
+            {
+                "Nome": "Jaal",
                 "KM": "KM 71",
-                "Mao": "Itupeva - Norte",
-                "Servicos": [
+                "Sentido": "Itupeva - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Serra Azul": {
+            {
+                "Nome": "Serra Azul",
                 "KM": "KM 71",
-                "Mao": "Itupeva - Sul",
-                "Servicos": [
+                "Sentido": "Itupeva - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Praça de Pedágio Itupeva Norte": {
+            {
+                "Nome": "Praça de Pedágio Itupeva Norte",
                 "KM": "KM 77",
-                "Mao": "Itupeva - Norte",
-                "Servicos": [
+                "Sentido": "Itupeva - Norte",
+                "Serviços": [
                     "Tags"
                 ]
             },
-            "Praça de Pedágio Itupeva Sul": {
+            {
+                "Nome": "Praça de Pedágio Itupeva Sul",
                 "KM": "KM 77",
-                "Mao": "Itupeva - Sul",
-                "Servicos": [
+                "Sentido": "Itupeva - Sul",
+                "Serviços": [
                     "Tags"
                 ]
             },
-            "Campeão 3": {
+            {
+                "Nome": "Campeão 3",
                 "KM": "KM 80",
-                "Mao": "Campinas - Sul",
-                "Servicos": [
+                "Sentido": "Campinas - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "PGF 117": {
+            {
+                "Nome": "PGF 117",
                 "KM": "KM 117",
-                "Mao": "Sumaré - Sul",
-                "Servicos": [
+                "Sentido": "Sumaré - Sul",
+                "Serviços": [
                     "Pernoite"
                 ]
             },
-            "Graal 125 Norte": {
+            {
+                "Nome": "Graal 125 Norte",
                 "KM": "KM 125",
-                "Mao": "Santa Bárbara D'Oeste - Norte",
-                "Servicos": [
+                "Sentido": "Santa Bárbara D'Oeste - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Graal 125 Sul": {
+            {
+                "Nome": "Graal 125 Sul",
                 "KM": "KM 125",
-                "Mao": "Santa Bárbara D'Oeste - Sul",
-                "Servicos": [
+                "Sentido": "Santa Bárbara D'Oeste - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             }
-        }
+        ]
     },
     "msvia": {
-        "BR-163/MS": {
-            "Autoposto Tio Sam": {
+        "Rodovia": "BR-163/MS",
+        "Estabelecimentos": [
+            {
+                "Nome": "Autoposto Tio Sam",
                 "KM": "KM 23",
-                "Mao": "Mundo Novo - Sul",
-                "Servicos": [
+                "Sentido": "Mundo Novo - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Diego": {
+            {
+                "Nome": "Autoposto Diego",
                 "KM": "KM 39",
-                "Mao": "Eldorado - Norte",
-                "Servicos": [
+                "Sentido": "Eldorado - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Trevo": {
+            {
+                "Nome": "Autoposto Trevo",
                 "KM": "KM 40",
-                "Mao": "Eldorado - Sul",
-                "Servicos": [
+                "Sentido": "Eldorado - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Fronteira": {
+            {
+                "Nome": "Posto Fronteira",
                 "KM": "KM 77",
-                "Mao": "Itaquiraí - Norte",
-                "Servicos": [
+                "Sentido": "Itaquiraí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Heloá": {
+            {
+                "Nome": "Posto Heloá",
                 "KM": "KM 77",
-                "Mao": "Itaquiraí - Norte",
-                "Servicos": [
+                "Sentido": "Itaquiraí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Pagé": {
+            {
+                "Nome": "Posto Pagé",
                 "KM": "KM 77",
-                "Mao": "Itaquiraí - Norte",
-                "Servicos": [
+                "Sentido": "Itaquiraí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Sete": {
+            {
+                "Nome": "Posto Sete",
                 "KM": "KM 77",
-                "Mao": "Itaquiraí - Norte",
-                "Servicos": [
+                "Sentido": "Itaquiraí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Morumbi": {
+            {
+                "Nome": "Posto Morumbi",
                 "KM": "KM 121",
-                "Mao": "Naviraí - Norte",
-                "Servicos": [
+                "Sentido": "Naviraí - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Sabiá": {
+            {
+                "Nome": "Autoposto Sabiá",
                 "KM": "KM 171",
-                "Mao": "Juti - Norte",
-                "Servicos": [
+                "Sentido": "Juti - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Nova Geração": {
+            {
+                "Nome": "Posto Nova Geração",
                 "KM": "KM 172",
-                "Mao": "Juti - Norte",
-                "Servicos": [
+                "Sentido": "Juti - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Posto de Combustível"
                 ]
             },
-            "Posto São Fernando": {
+            {
+                "Nome": "Posto São Fernando",
                 "KM": "KM 206",
-                "Mao": "Caarapó - Norte",
-                "Servicos": [
+                "Sentido": "Caarapó - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Bela Vista": {
+            {
+                "Nome": "Posto Bela Vista",
                 "KM": "KM 207",
-                "Mao": "Caarapó - Sul",
-                "Servicos": [
+                "Sentido": "Caarapó - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Baena": {
+            {
+                "Nome": "Autoposto Baena",
                 "KM": "KM 208",
-                "Mao": "Caarapó - Norte",
-                "Servicos": [
+                "Sentido": "Caarapó - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Brasil": {
+            {
+                "Nome": "Posto Brasil",
                 "KM": "KM 208",
-                "Mao": "Caarapó - Sul",
-                "Servicos": [
+                "Sentido": "Caarapó - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Capela": {
+            {
+                "Nome": "Autoposto Capela",
                 "KM": "KM 246",
-                "Mao": "Dourados - Sul",
-                "Servicos": [
+                "Sentido": "Dourados - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto da Base": {
+            {
+                "Nome": "Posto da Base",
                 "KM": "KM 266",
-                "Mao": "Dourados - Sul",
-                "Servicos": [
+                "Sentido": "Dourados - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto BR 163": {
+            {
+                "Nome": "Posto BR 163",
                 "KM": "KM 268",
-                "Mao": "Dourados - Norte",
-                "Servicos": [
+                "Sentido": "Dourados - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Bela Vista 2": {
+            {
+                "Nome": "Posto Bela Vista 2",
                 "KM": "KM 286",
-                "Mao": "Douradina - Sul",
-                "Servicos": [
+                "Sentido": "Douradina - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Entre Rios": {
+            {
+                "Nome": "Posto Entre Rios",
                 "KM": "KM 324",
-                "Mao": "Rio Brilhante - Norte",
-                "Servicos": [
+                "Sentido": "Rio Brilhante - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Platinão": {
+            {
+                "Nome": "Posto Platinão",
                 "KM": "KM 324",
-                "Mao": "Rio Brilhante - Sul",
-                "Servicos": [
+                "Sentido": "Rio Brilhante - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Guaíba": {
+            {
+                "Nome": "Posto Guaíba",
                 "KM": "KM 339",
-                "Mao": "Rio Brilhante - Norte",
-                "Servicos": [
+                "Sentido": "Rio Brilhante - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Trevão": {
+            {
+                "Nome": "Autoposto Trevão",
                 "KM": "KM 365",
-                "Mao": "Nova Alvorada do Sul - Norte",
-                "Servicos": [
+                "Sentido": "Nova Alvorada do Sul - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Eucalipto": {
+            {
+                "Nome": "Posto Eucalipto",
                 "KM": "KM 408",
-                "Mao": "Sidrolândia - Sul",
-                "Servicos": [
+                "Sentido": "Sidrolândia - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Platinão 2": {
+            {
+                "Nome": "Posto Platinão 2",
                 "KM": "KM 455",
-                "Mao": "Campo Grande - Sul",
-                "Servicos": [
+                "Sentido": "Campo Grande - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Savana": {
+            {
+                "Nome": "Posto Savana",
                 "KM": "KM 457",
-                "Mao": "Campo Grande - Sul",
-                "Servicos": [
+                "Sentido": "Campo Grande - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Kátia Locatelli": {
+            {
+                "Nome": "Posto Kátia Locatelli",
                 "KM": "KM 462",
-                "Mao": "Campo Grande - Norte",
-                "Servicos": [
+                "Sentido": "Campo Grande - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Pinhalzinho": {
+            {
+                "Nome": "Posto Pinhalzinho",
                 "KM": "KM 469",
-                "Mao": "Campo Grande - Norte",
-                "Servicos": [
+                "Sentido": "Campo Grande - Norte",
+                "Serviços": [
                     "Posto de Combustível"
                 ]
             },
-            "Posto América": {
+            {
+                "Nome": "Posto América",
                 "KM": "KM 475",
-                "Mao": "Campo Grande - Norte",
-                "Servicos": [
+                "Sentido": "Campo Grande - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Caravágio": {
+            {
+                "Nome": "Posto Caravágio",
                 "KM": "KM 478",
-                "Mao": "Campo Grande - Norte",
-                "Servicos": [
+                "Sentido": "Campo Grande - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Ideal": {
+            {
+                "Nome": "Posto Ideal",
                 "KM": "KM 483",
-                "Mao": "Campo Grande - Norte",
-                "Servicos": [
+                "Sentido": "Campo Grande - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Arara Azul": {
+            {
+                "Nome": "Posto Arara Azul",
                 "KM": "KM 492",
-                "Mao": "Campo Grande - Sul",
-                "Servicos": [
+                "Sentido": "Campo Grande - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Zitão Autoposto": {
+            {
+                "Nome": "Zitão Autoposto",
                 "KM": "KM 503",
-                "Mao": "Jaraguari - Sul",
-                "Servicos": [
+                "Sentido": "Jaraguari - Sul",
+                "Serviços": [
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Amigão": {
+            {
+                "Nome": "Posto Amigão",
                 "KM": "KM 504",
-                "Mao": "Jaraguari - Norte",
-                "Servicos": [
+                "Sentido": "Jaraguari - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Carretão": {
+            {
+                "Nome": "Posto Carretão",
                 "KM": "KM 514",
-                "Mao": "Jaraguari - Norte",
-                "Servicos": [
+                "Sentido": "Jaraguari - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Campeão": {
+            {
+                "Nome": "Posto Campeão",
                 "KM": "KM 523",
-                "Mao": "Jaraguari - Sul",
-                "Servicos": [
+                "Sentido": "Jaraguari - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Raffa": {
+            {
+                "Nome": "Posto Raffa",
                 "KM": "KM 548",
-                "Mao": "Bandeirantes - Norte",
-                "Servicos": [
+                "Sentido": "Bandeirantes - Norte",
+                "Serviços": [
                     "Posto de Combustível"
                 ]
             },
-            "Posto Dragão Diesel": {
+            {
+                "Nome": "Posto Dragão Diesel",
                 "KM": "KM 615",
-                "Mao": "São Gabriel do Oeste - Norte",
-                "Servicos": [
+                "Sentido": "São Gabriel do Oeste - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto San Martin": {
+            {
+                "Nome": "Posto San Martin",
                 "KM": "KM 615",
-                "Mao": "São Gabriel do Oeste - Sul",
-                "Servicos": [
+                "Sentido": "São Gabriel do Oeste - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Santa Rosa Autoposto": {
+            {
+                "Nome": "Santa Rosa Autoposto",
                 "KM": "KM 615",
-                "Mao": "São Gabriel do Oeste - Sul",
-                "Servicos": [
+                "Sentido": "São Gabriel do Oeste - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Posto San Martin II": {
+            {
+                "Nome": "Posto San Martin II",
                 "KM": "KM 638",
-                "Mao": "São Gabriel do Oeste - Norte",
-                "Servicos": [
+                "Sentido": "São Gabriel do Oeste - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto 2007": {
+            {
+                "Nome": "Posto 2007",
                 "KM": "KM 679",
-                "Mao": "Rio Verde de Mato Grosso - Sul",
-                "Servicos": [
+                "Sentido": "Rio Verde de Mato Grosso - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Pasoline": {
+            {
+                "Nome": "Posto Pasoline",
                 "KM": "KM 681",
-                "Mao": "Rio Verde de Mato Grosso - Norte",
-                "Servicos": [
+                "Sentido": "Rio Verde de Mato Grosso - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Faedo": {
+            {
+                "Nome": "Posto Faedo",
                 "KM": "KM 726",
-                "Mao": "Coxim - Norte",
-                "Servicos": [
+                "Sentido": "Coxim - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Pantanal": {
+            {
+                "Nome": "Autoposto Pantanal",
                 "KM": "KM 727",
-                "Mao": "Coxim - Sul",
-                "Servicos": [
+                "Sentido": "Coxim - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Taquari": {
+            {
+                "Nome": "Autoposto Taquari",
                 "KM": "KM 730",
-                "Mao": "Coxim - Norte",
-                "Servicos": [
+                "Sentido": "Coxim - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Luzitano": {
+            {
+                "Nome": "Autoposto Luzitano",
                 "KM": "KM 731",
-                "Mao": "Coxim - Sul",
-                "Servicos": [
+                "Sentido": "Coxim - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Recreio": {
+            {
+                "Nome": "Autoposto Recreio",
                 "KM": "KM 767",
-                "Mao": "Coxim - Sul",
-                "Servicos": [
+                "Sentido": "Coxim - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Pegoraro": {
+            {
+                "Nome": "Posto Pegoraro",
                 "KM": "KM 786",
-                "Mao": "Coxim - Sul",
-                "Servicos": [
+                "Sentido": "Coxim - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Autoposto Piquiry": {
+            {
+                "Nome": "Autoposto Piquiry",
                 "KM": "KM 808",
-                "Mao": "Pedro Gomes - Norte",
-                "Servicos": [
+                "Sentido": "Pedro Gomes - Norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             },
-            "Posto Nova Bréscia": {
+            {
+                "Nome": "Posto Nova Bréscia",
                 "KM": "KM 837",
-                "Mao": "Sonora - Sul",
-                "Servicos": [
+                "Sentido": "Sonora - Sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto de Combustível"
                 ]
             }
-        }
+        ]
     },
     "novadutra": {
-        "BR 116": {
-            "Balança de Queluz": {
+        "Rodovia": "BR 116",
+        "Estabelecimentos": [
+            {
+                "Nome": "Balança de Queluz",
                 "KM": "KM 0",
-                "Mao": "Queluz - Norte",
-                "Servicos": [
+                "Sentido": "Queluz - Norte",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Desinfecção de Cabines de Caminhão",
                     "Kit de Alimentação",
                     "Troca de Lâmpadas de Caminhão"
                 ]
             },
-            "Posto de Serviço": {
+            {
+                "Nome": "Posto de Serviço",
                 "KM": "KM 6",
-                "Mao": "Queluz - sul",
-                "Servicos": [
+                "Sentido": "Queluz - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
@@ -656,170 +732,189 @@
                     "Posto"
                 ]
             },
-            "Posto de Serviço 2": {
+            {
+                "Nome": "Posto de Serviço 2",
                 "KM": "KM 12",
-                "Mao": "Queluz - norte",
-                "Servicos": [
+                "Sentido": "Queluz - norte",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 3": {
+            {
+                "Nome": "Posto de Serviço 3",
                 "KM": "KM 24.90",
-                "Mao": "Lavrinhas - norte",
-                "Servicos": [
+                "Sentido": "Lavrinhas - norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 4": {
+            {
+                "Nome": "Posto de Serviço 4",
                 "KM": "KM 25.40",
-                "Mao": "Lavrinhas - sul",
-                "Servicos": [
+                "Sentido": "Lavrinhas - sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 5": {
+            {
+                "Nome": "Posto de Serviço 5",
                 "KM": "KM 26",
-                "Mao": "Silveiras - sul",
-                "Servicos": [
+                "Sentido": "Silveiras - sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 6": {
+            {
+                "Nome": "Posto de Serviço 6",
                 "KM": "KM 37",
-                "Mao": "Cachoeira Paulista - sul",
-                "Servicos": [
+                "Sentido": "Cachoeira Paulista - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 7": {
+            {
+                "Nome": "Posto de Serviço 7",
                 "KM": "KM 45.70",
-                "Mao": "Canas - norte",
-                "Servicos": [
+                "Sentido": "Canas - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 8": {
+            {
+                "Nome": "Posto de Serviço 8",
                 "KM": "KM 45.80",
-                "Mao": "Canas - sul",
-                "Servicos": [
+                "Sentido": "Canas - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 9": {
+            {
+                "Nome": "Posto de Serviço 9",
                 "KM": "KM 52",
-                "Mao": "Lorena - sul",
-                "Servicos": [
+                "Sentido": "Lorena - sul",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 10": {
+            {
+                "Nome": "Posto de Serviço 10",
                 "KM": "KM 54",
-                "Mao": "Lorena - norte",
-                "Servicos": [
+                "Sentido": "Lorena - norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 11": {
+            {
+                "Nome": "Posto de Serviço 11",
                 "KM": "KM 57.50",
-                "Mao": "Guaratinguetá - sul",
-                "Servicos": [
+                "Sentido": "Guaratinguetá - sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 12": {
+            {
+                "Nome": "Posto de Serviço 12",
                 "KM": "KM 58.40",
-                "Mao": "Guaratinguetá - sul",
-                "Servicos": [
+                "Sentido": "Guaratinguetá - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 13": {
+            {
+                "Nome": "Posto de Serviço 13",
                 "KM": "KM 59.70",
-                "Mao": "Guaratinguetá - norte",
-                "Servicos": [
+                "Sentido": "Guaratinguetá - norte",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 14": {
+            {
+                "Nome": "Posto de Serviço 14",
                 "KM": "KM 62.80",
-                "Mao": "Guaratinguetá - norte",
-                "Servicos": [
+                "Sentido": "Guaratinguetá - norte",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 15": {
+            {
+                "Nome": "Posto de Serviço 15",
                 "KM": "KM 69",
-                "Mao": "Aparecida - norte",
-                "Servicos": [
+                "Sentido": "Aparecida - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 16": {
+            {
+                "Nome": "Posto de Serviço 16",
                 "KM": "KM 70",
-                "Mao": "Aparecida - norte",
-                "Servicos": [
+                "Sentido": "Aparecida - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 17": {
+            {
+                "Nome": "Posto de Serviço 17",
                 "KM": "KM 72",
-                "Mao": "Aparecida - sul",
-                "Servicos": [
+                "Sentido": "Aparecida - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 18": {
+            {
+                "Nome": "Posto de Serviço 18",
                 "KM": "KM 75",
-                "Mao": "Aparecida - sul",
-                "Servicos": [
+                "Sentido": "Aparecida - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 19": {
+            {
+                "Nome": "Posto de Serviço 19",
                 "KM": "KM 80",
-                "Mao": "São Paulo - sul",
-                "Servicos": [
+                "Sentido": "São Paulo - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 20": {
+            {
+                "Nome": "Posto de Serviço 20",
                 "KM": "KM 82",
-                "Mao": "Roseira - Norte",
-                "Servicos": [
+                "Sentido": "Roseira - Norte",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Desinfecção de Cabines de Caminhão",
                     "Kit de Alimentação",
@@ -827,10 +922,11 @@
                     "Troca de Lâmpadas de Caminhão"
                 ]
             },
-            "Posto de Serviço 21": {
+            {
+                "Nome": "Posto de Serviço 21",
                 "KM": "KM 82",
-                "Mao": "São Paulo - norte",
-                "Servicos": [
+                "Sentido": "São Paulo - norte",
+                "Serviços": [
                     "Alimentação",
                     "Atendimentos Médicos",
                     "Auto Elétrica",
@@ -839,321 +935,360 @@
                     "Posto"
                 ]
             },
-            "Posto de Serviço 22": {
+            {
+                "Nome": "Posto de Serviço 22",
                 "KM": "KM 85.90",
-                "Mao": "Pindamonhangaba - sul",
-                "Servicos": [
+                "Sentido": "Pindamonhangaba - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 23": {
+            {
+                "Nome": "Posto de Serviço 23",
                 "KM": "KM 86",
-                "Mao": "Pindamonhangaba - norte",
-                "Servicos": [
+                "Sentido": "Pindamonhangaba - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 24": {
+            {
+                "Nome": "Posto de Serviço 24",
                 "KM": "KM 86.60",
-                "Mao": "Pindamonhangaba - norte",
-                "Servicos": [
+                "Sentido": "Pindamonhangaba - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 25": {
+            {
+                "Nome": "Posto de Serviço 25",
                 "KM": "KM 92.20",
-                "Mao": "Pindamonhangaba - sul",
-                "Servicos": [
+                "Sentido": "Pindamonhangaba - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 26": {
+            {
+                "Nome": "Posto de Serviço 26",
                 "KM": "KM 101",
-                "Mao": "Pindamonhangaba - norte",
-                "Servicos": [
+                "Sentido": "Pindamonhangaba - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 27": {
+            {
+                "Nome": "Posto de Serviço 27",
                 "KM": "KM 107",
-                "Mao": "Taubaté - norte",
-                "Servicos": [
+                "Sentido": "Taubaté - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 28": {
+            {
+                "Nome": "Posto de Serviço 28",
                 "KM": "KM 110.70",
-                "Mao": "Taubaté - sul",
-                "Servicos": [
+                "Sentido": "Taubaté - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 29": {
+            {
+                "Nome": "Posto de Serviço 29",
                 "KM": "KM 115.30",
-                "Mao": "Taubaté - sul",
-                "Servicos": [
+                "Sentido": "Taubaté - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 30": {
+            {
+                "Nome": "Posto de Serviço 30",
                 "KM": "KM 121.50",
-                "Mao": "Caçapava - sul",
-                "Servicos": [
+                "Sentido": "Caçapava - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 31": {
+            {
+                "Nome": "Posto de Serviço 31",
                 "KM": "KM 129.70",
-                "Mao": "Caçapava - norte",
-                "Servicos": [
+                "Sentido": "Caçapava - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 32": {
+            {
+                "Nome": "Posto de Serviço 32",
                 "KM": "KM 130",
-                "Mao": "Caçapava - norte",
-                "Servicos": [
+                "Sentido": "Caçapava - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 33": {
+            {
+                "Nome": "Posto de Serviço 33",
                 "KM": "KM 130.50",
-                "Mao": "Caçapava - norte",
-                "Servicos": [
+                "Sentido": "Caçapava - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 34": {
+            {
+                "Nome": "Posto de Serviço 34",
                 "KM": "KM 133",
-                "Mao": "Caçapava - norte",
-                "Servicos": [
+                "Sentido": "Caçapava - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 35": {
+            {
+                "Nome": "Posto de Serviço 35",
                 "KM": "KM 153.50",
-                "Mao": "São José dos Campos - norte",
-                "Servicos": [
+                "Sentido": "São José dos Campos - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 36": {
+            {
+                "Nome": "Posto de Serviço 36",
                 "KM": "KM 153.50",
-                "Mao": "São José dos Campos - sul",
-                "Servicos": [
+                "Sentido": "São José dos Campos - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 37": {
+            {
+                "Nome": "Posto de Serviço 37",
                 "KM": "KM 158",
-                "Mao": "Jacareí - sul",
-                "Servicos": [
+                "Sentido": "Jacareí - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 38": {
+            {
+                "Nome": "Posto de Serviço 38",
                 "KM": "KM 158.70",
-                "Mao": "Jacareí - sul",
-                "Servicos": [
+                "Sentido": "Jacareí - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 39": {
+            {
+                "Nome": "Posto de Serviço 39",
                 "KM": "KM 159.40",
-                "Mao": "Jacareí - sul",
-                "Servicos": [
+                "Sentido": "Jacareí - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 40": {
+            {
+                "Nome": "Posto de Serviço 40",
                 "KM": "KM 164",
-                "Mao": "Rio de Janeiro - norte",
-                "Servicos": [
+                "Sentido": "Rio de Janeiro - norte",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 41": {
+            {
+                "Nome": "Posto de Serviço 41",
                 "KM": "KM 166",
-                "Mao": "Jacareí - norte",
-                "Servicos": [
+                "Sentido": "Jacareí - norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 42": {
+            {
+                "Nome": "Posto de Serviço 42",
                 "KM": "KM 167",
-                "Mao": "São João de Meriti - sul",
-                "Servicos": [
+                "Sentido": "São João de Meriti - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 43": {
+            {
+                "Nome": "Posto de Serviço 43",
                 "KM": "KM 168",
-                "Mao": "São João de Meriti - sul",
-                "Servicos": [
+                "Sentido": "São João de Meriti - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 44": {
+            {
+                "Nome": "Posto de Serviço 44",
                 "KM": "KM 168.30",
-                "Mao": "Jacareí - sul",
-                "Servicos": [
+                "Sentido": "Jacareí - sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 45": {
+            {
+                "Nome": "Posto de Serviço 45",
                 "KM": "KM 170",
-                "Mao": "São João de Meriti - sul",
-                "Servicos": [
+                "Sentido": "São João de Meriti - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 46": {
+            {
+                "Nome": "Posto de Serviço 46",
                 "KM": "KM 175.40",
-                "Mao": "Nova Iguaçu - sul",
-                "Servicos": [
+                "Sentido": "Nova Iguaçu - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 47": {
+            {
+                "Nome": "Posto de Serviço 47",
                 "KM": "KM 178.20",
-                "Mao": "Nova Iguaçu - sul",
-                "Servicos": [
+                "Sentido": "Nova Iguaçu - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Balança de Guararema": {
+            {
+                "Nome": "Balança de Guararema",
                 "KM": "KM 179",
-                "Mao": "Guararema - Sul",
-                "Servicos": [
+                "Sentido": "Guararema - Sul",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Desinfecção de Cabines de Caminhão",
                     "Kit de Alimentação",
                     "Troca de Lâmpadas de Caminhão"
                 ]
             },
-            "Posto de Serviço 48": {
+            {
+                "Nome": "Posto de Serviço 48",
                 "KM": "KM 179.50",
-                "Mao": "Guararema - sul",
-                "Servicos": [
+                "Sentido": "Guararema - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 49": {
+            {
+                "Nome": "Posto de Serviço 49",
                 "KM": "KM 180",
-                "Mao": "Nova Iguaçu - sul",
-                "Servicos": [
+                "Sentido": "Nova Iguaçu - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 50": {
+            {
+                "Nome": "Posto de Serviço 50",
                 "KM": "KM 181",
-                "Mao": "Nova Iguaçu - sul",
-                "Servicos": [
+                "Sentido": "Nova Iguaçu - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 51": {
+            {
+                "Nome": "Posto de Serviço 51",
                 "KM": "KM 181.40",
-                "Mao": "Guararema - norte",
-                "Servicos": [
+                "Sentido": "Guararema - norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 52": {
+            {
+                "Nome": "Posto de Serviço 52",
                 "KM": "KM 185.20",
-                "Mao": "Nova Iguaçu - norte",
-                "Servicos": [
+                "Sentido": "Nova Iguaçu - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 53": {
+            {
+                "Nome": "Posto de Serviço 53",
                 "KM": "KM 201.80",
-                "Mao": "Arujá - norte",
-                "Servicos": [
+                "Sentido": "Arujá - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 54": {
+            {
+                "Nome": "Posto de Serviço 54",
                 "KM": "KM 204",
-                "Mao": "Seropédica - sul",
-                "Servicos": [
+                "Sentido": "Seropédica - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 55": {
+            {
+                "Nome": "Posto de Serviço 55",
                 "KM": "KM 208",
-                "Mao": "Guarulhos - sul",
-                "Servicos": [
+                "Sentido": "Guarulhos - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 56": {
+            {
+                "Nome": "Posto de Serviço 56",
                 "KM": "KM 210.50",
-                "Mao": "Guarulhos - norte",
-                "Servicos": [
+                "Sentido": "Guarulhos - norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 57": {
+            {
+                "Nome": "Posto de Serviço 57",
                 "KM": "KM 210.50",
-                "Mao": "Guarulhos - sul",
-                "Servicos": [
+                "Sentido": "Guarulhos - sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 58": {
+            {
+                "Nome": "Posto de Serviço 58",
                 "KM": "KM 215",
-                "Mao": "Guarulhos - norte",
-                "Servicos": [
+                "Sentido": "Guarulhos - norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 59": {
+            {
+                "Nome": "Posto de Serviço 59",
                 "KM": "KM 216.80",
-                "Mao": "Paracambi - norte",
-                "Servicos": [
+                "Sentido": "Paracambi - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
@@ -1161,794 +1296,336 @@
                     "Posto"
                 ]
             },
-            "Posto de Serviço 60": {
+            {
+                "Nome": "Posto de Serviço 60",
                 "KM": "KM 227",
-                "Mao": "Piraí - sul",
-                "Servicos": [
+                "Sentido": "Piraí - sul",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 61": {
+            {
+                "Nome": "Posto de Serviço 61",
                 "KM": "KM 228",
-                "Mao": "São Paulo - norte",
-                "Servicos": [
+                "Sentido": "São Paulo - norte",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 62": {
+            {
+                "Nome": "Posto de Serviço 62",
                 "KM": "KM 236.90",
-                "Mao": "Piraí - sul",
-                "Servicos": [
+                "Sentido": "Piraí - sul",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 63": {
+            {
+                "Nome": "Posto de Serviço 63",
                 "KM": "KM 237",
-                "Mao": "Piraí - norte",
-                "Servicos": [
+                "Sentido": "Piraí - norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 64": {
+            {
+                "Nome": "Posto de Serviço 64",
                 "KM": "KM 257.50",
-                "Mao": "Volta Redonda - sul",
-                "Servicos": [
+                "Sentido": "Volta Redonda - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 65": {
+            {
+                "Nome": "Posto de Serviço 65",
                 "KM": "KM 267",
-                "Mao": "Barra Mansa - sul",
-                "Servicos": [
+                "Sentido": "Barra Mansa - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 66": {
+            {
+                "Nome": "Posto de Serviço 66",
                 "KM": "KM 269",
-                "Mao": "Barra Mansa - sul",
-                "Servicos": [
+                "Sentido": "Barra Mansa - sul",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 67": {
+            {
+                "Nome": "Posto de Serviço 67",
                 "KM": "KM 270",
-                "Mao": "Barra Mansa - norte",
-                "Servicos": [
+                "Sentido": "Barra Mansa - norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 68": {
+            {
+                "Nome": "Posto de Serviço 68",
                 "KM": "KM 272",
-                "Mao": "Barra Mansa - norte",
-                "Servicos": [
+                "Sentido": "Barra Mansa - norte",
+                "Serviços": [
                     "Posto"
                 ]
             },
-            "Posto de Serviço 69": {
+            {
+                "Nome": "Posto de Serviço 69",
                 "KM": "KM 276",
-                "Mao": "Barra Mansa - norte",
-                "Servicos": [
+                "Sentido": "Barra Mansa - norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 70": {
+            {
+                "Nome": "Posto de Serviço 70",
                 "KM": "KM 290",
-                "Mao": "Barra Mansa - norte",
-                "Servicos": [
+                "Sentido": "Barra Mansa - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 71": {
+            {
+                "Nome": "Posto de Serviço 71",
                 "KM": "KM 290.20",
-                "Mao": "Porto Real - norte",
-                "Servicos": [
+                "Sentido": "Porto Real - norte",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 72": {
+            {
+                "Nome": "Posto de Serviço 72",
                 "KM": "KM 296.20",
-                "Mao": "Porto Real - sul",
-                "Servicos": [
+                "Sentido": "Porto Real - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 73": {
+            {
+                "Nome": "Posto de Serviço 73",
                 "KM": "KM 299.30",
-                "Mao": "Resende - sul",
-                "Servicos": [
+                "Sentido": "Resende - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 74": {
+            {
+                "Nome": "Posto de Serviço 74",
                 "KM": "KM 299.90",
-                "Mao": "Resende - sul",
-                "Servicos": [
+                "Sentido": "Resende - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Balança de Resende": {
+            {
+                "Nome": "Balança de Resende",
                 "KM": "KM 301",
-                "Mao": "Resende - Sul",
-                "Servicos": [
+                "Sentido": "Resende - Sul",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Desinfecção de Cabines de Caminhão",
                     "Kit de Alimentação",
                     "Troca de Lâmpadas de Caminhão"
                 ]
             },
-            "Posto de Serviço 75": {
+            {
+                "Nome": "Posto de Serviço 75",
                 "KM": "KM 303",
-                "Mao": "Resende - norte",
-                "Servicos": [
+                "Sentido": "Resende - norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 76": {
+            {
+                "Nome": "Posto de Serviço 76",
                 "KM": "KM 304.40",
-                "Mao": "Resende - norte",
-                "Servicos": [
+                "Sentido": "Resende - norte",
+                "Serviços": [
                     "Alimentação",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 77": {
+            {
+                "Nome": "Posto de Serviço 77",
                 "KM": "KM 305.20",
-                "Mao": "Resende - sul",
-                "Servicos": [
+                "Sentido": "Resende - sul",
+                "Serviços": [
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 78": {
+            {
+                "Nome": "Posto de Serviço 78",
                 "KM": "KM 316.20",
-                "Mao": "Itatiaia - sul",
-                "Servicos": [
+                "Sentido": "Itatiaia - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 79": {
+            {
+                "Nome": "Posto de Serviço 79",
                 "KM": "KM 319.20",
-                "Mao": "Itatiaia - sul",
-                "Servicos": [
+                "Sentido": "Itatiaia - sul",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 80": {
+            {
+                "Nome": "Posto de Serviço 80",
                 "KM": "KM 323",
-                "Mao": "Resende - norte",
-                "Servicos": [
+                "Sentido": "Resende - norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 81": {
+            {
+                "Nome": "Posto de Serviço 81",
                 "KM": "KM 323.70",
-                "Mao": "Itatiaia - sul",
-                "Servicos": [
+                "Sentido": "Itatiaia - sul",
+                "Serviços": [
                     "Alimentação",
                     "Auto Elétrica",
                     "Borracharia",
                     "Posto"
                 ]
             },
-            "Posto de Serviço 82": {
+            {
+                "Nome": "Posto de Serviço 82",
                 "KM": "KM 324.10",
-                "Mao": "Itatiaia - norte",
-                "Servicos": [
+                "Sentido": "Itatiaia - norte",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Posto"
                 ]
             }
-        }
+        ]
     },
     "rodoanel": {
-        "SP021 - RODOANEL OESTE": {
-            "Pedágio": {
+        "Rodovia": "SP021 - RODOANEL OESTE",
+        "Estabelecimentos": [
+            {
+                "Nome": "Pedágio",
                 "KM": "KM 0",
-                "Mao": "São Paulo - Interna",
-                "Servicos": [
+                "Sentido": "São Paulo - Interna",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Pedágio 2": {
+            {
+                "Nome": "Pedágio 2",
                 "KM": "KM 3",
-                "Mao": "São Paulo - Externa",
-                "Servicos": [
+                "Sentido": "São Paulo - Externa",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Pedágio 3": {
+            {
+                "Nome": "Pedágio 3",
                 "KM": "KM 6",
-                "Mao": "São Paulo - Interna",
-                "Servicos": [
+                "Sentido": "São Paulo - Interna",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Pedágio 4": {
+            {
+                "Nome": "Pedágio 4",
                 "KM": "KM 15",
-                "Mao": "Barueri - Interna",
-                "Servicos": [
+                "Sentido": "Barueri - Interna",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Casa do Usuário": {
+            {
+                "Nome": "Casa do Usuário",
                 "KM": "KM 16",
-                "Mao": "Osasco - Interna",
-                "Servicos": [
+                "Sentido": "Osasco - Interna",
+                "Serviços": [
                     "Entrega de refeição e Kit de higiene e alimentação"
                 ]
             },
-            "Pedágio 5": {
+            {
+                "Nome": "Pedágio 5",
                 "KM": "KM 24",
-                "Mao": "Osasco - Externa",
-                "Servicos": [
+                "Sentido": "Osasco - Externa",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Pedágio 6": {
+            {
+                "Nome": "Pedágio 6",
                 "KM": "KM 25",
-                "Mao": "Osasco - Externa",
-                "Servicos": [
+                "Sentido": "Osasco - Externa",
+                "Serviços": [
                     "TAG"
                 ]
             }
-        }
+        ]
     },
     "rodonorte": {
-        "BR 277": {
-            "Posto Farol do Parque": {
-                "KM": "KM 97",
-                "Mao": "Curitiba - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação"
-                ]
-            },
-            "Posto Jardim Guarany": {
-                "KM": "KM 104",
-                "Mao": "Campo Largo - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação"
-                ]
-            },
-            "Posto Quinta": {
-                "KM": "KM 117",
-                "Mao": "Campo Largo - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            },
-            "Posto Quinta Purunã": {
-                "KM": "KM 133",
-                "Mao": "Balsa Nova - Sul",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            },
-            "Posto de Pesagem": {
-                "KM": "KM 137",
-                "Mao": "Balsa Nova - Sul",
-                "Servicos": [
-                    "Atendimento médico",
-                    "Desinfecção das cabines dos caminhões",
-                    "Distribuição de kits de alimentos/ higiene",
-                    "Estrada para Saúde",
-                    "Sest Senat",
-                    "Verificação das lâmpadas traseiras"
-                ]
-            }
-        },
-        "BR 373": {
-            "Posto Contorno 5": {
-                "KM": "KM 179",
-                "Mao": "Ponta Grossa - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            },
-            "Posto Contorno 2": {
-                "KM": "KM 182",
-                "Mao": "Ponta Grossa - Sul",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            }
-        },
-        "BR 376": {
-            "Posto Cupim": {
-                "KM": "KM 266",
-                "Mao": "Marilândia do Sul - Sul",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            },
-            "Posto de Pesagem": {
-                "KM": "KM 296",
-                "Mao": "Marilândia do Sul - Sul",
-                "Servicos": [
-                    "Atendimento médico",
-                    "Desinfecção das cabines dos caminhões",
-                    "Distribuição de kits de alimentos/ higiene",
-                    "Estrada para Saúde",
-                    "Sest Senat",
-                    "Verificação das lâmpadas traseiras"
-                ]
-            },
-            "Posto Juninho Mauá": {
-                "KM": "KM 298",
-                "Mao": "Mauá da Serra - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            },
-            "Posto Dedusch": {
-                "KM": "KM 332",
-                "Mao": "Ortigueira - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            },
-            "Posto do Avião": {
-                "KM": "KM 387",
-                "Mao": "Imbaú - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Borracharia"
-                ]
-            },
-            "Posto Imbaú 2": {
-                "KM": "KM 394",
-                "Mao": "Imbaú - Norte",
-                "Servicos": [
-                    "Abastecimento"
-                ]
-            },
-            "Posto Guapo": {
-                "KM": "KM 411",
-                "Mao": "Reserva - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            },
-            "Posto Zappa": {
-                "KM": "KM 458",
-                "Mao": "Ponta Grossa - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            },
-            "Posto Cupim (Panorâmico)": {
-                "KM": "KM 517",
-                "Mao": "Ponta Grossa - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            },
-            "Posto Ravanello": {
-                "KM": "KM 548",
-                "Mao": "Palmeira - Norte",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            },
-            "Posto Mahle (SPREA)": {
-                "KM": "KM 554",
-                "Mao": "Balsa Nova - Sul",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            }
-        },
-        "PR 151": {
-            "Posto Pelanda": {
-                "KM": "KM 224",
-                "Mao": "Jaguariaíva - Leste",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            },
-            "Posto do Ipirangão": {
-                "KM": "KM 268",
-                "Mao": "Piraí do Sul - Oeste",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação"
-                ]
-            },
-            "Posto Contorno 3": {
-                "KM": "KM 310",
-                "Mao": "Carambeí - Oeste",
-                "Servicos": [
-                    "Abastecimento"
-                ]
-            },
-            "Posto Florense 2": {
-                "KM": "KM 311",
-                "Mao": "Carambeí - Oeste",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia"
-                ]
-            },
-            "Posto Menegatti": {
-                "KM": "KM 312",
-                "Mao": "Carambeí - Leste",
-                "Servicos": [
-                    "Abastecimento",
-                    "Alimentação",
-                    "Borracharia",
-                    "Oficina mecânica"
-                ]
-            }
-        },
-        "PRC 373": {
-            "Posto Florense": {
+        "Rodovia": "PRC 373",
+        "Estabelecimentos": [
+            {
+                "Nome": "Posto Florense",
                 "KM": "KM 170",
-                "Mao": "Ponta Grossa - Leste",
-                "Servicos": [
+                "Sentido": "Ponta Grossa - Leste",
+                "Serviços": [
                     "Abastecimento",
                     "Alimentação"
                 ]
             }
-        }
+        ]
     },
     "spvias": {
-        "SP 127": {
-            "Posto Astória ": {
-                "KM": "KM 108.30",
-                "Mao": "Tatuí - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Imperador ": {
-                "KM": "KM 112.20",
-                "Mao": "Tatuí - Sul",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto 70 ": {
-                "KM": "KM 112.30",
-                "Mao": "Tatuí - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Trevo ": {
-                "KM": "KM 113.10",
-                "Mao": "Tatuí - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Autoelétrica",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Pavão ": {
-                "KM": "KM 122.20",
-                "Mao": "Tatuí - Sul",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Rodo Sul ": {
-                "KM": "KM 167.80",
-                "Mao": "Itapetininga - Sul",
-                "Servicos": [
-                    "Alimentação",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Irmãos Carvalho ": {
-                "KM": "KM 179",
-                "Mao": "Itapetininga - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Marquezin ": {
-                "KM": "KM 190",
-                "Mao": "São Miguel Arcanjo - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto 188": {
-                "KM": "KM 198",
-                "Mao": "Capão Bonito - Sul",
-                "Servicos": [
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Paulistão ": {
-                "KM": "KM 212",
-                "Mao": "Capão Bonito - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Vantroba ": {
-                "KM": "KM 213.80",
-                "Mao": "Capão Bonito - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            }
-        },
-        "SP 255": {
-            "Posto Avarezão (Antigo Titãn) ": {
-                "KM": "KM 248.07",
-                "Mao": "Avaré - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Rodo Rede Bizungão II ": {
-                "KM": "KM 259",
-                "Mao": "Avaré - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Autoelétrica",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Bizungão Ilha Verde ": {
-                "KM": "KM 271.20",
-                "Mao": "Avaré - Norte",
-                "Servicos": [
-                    "Alimentação",
-                    "Autoelétrica",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            }
-        },
-        "SP 258 ": {
-            "Auto Posto Mercosul ": {
-                "KM": "KM 263.40",
-                "Mao": "Taquarivaí - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto União ": {
-                "KM": "KM 263.80",
-                "Mao": "Taquarivaí - Oeste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Expectro ": {
-                "KM": "KM 284",
-                "Mao": "Itapeva - Oeste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Explanada Zanforlin": {
-                "KM": "KM 288",
-                "Mao": "Itapeva - Oeste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Amigão ": {
-                "KM": "KM 295",
-                "Mao": "Itapeva - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Estradão ": {
-                "KM": "KM 339.40",
-                "Mao": "Itararé - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Autoelétrica",
-                    "Borracharia",
-                    "Postos de Serviços"
-                ]
-            }
-        },
-        "SP 270": {
-            "Posto Blue ": {
-                "KM": "KM 127.80",
-                "Mao": "Araçoiaba da Serra - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Cerrado ": {
-                "KM": "KM 140",
-                "Mao": "Alambari - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Autoelétrica",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Siqueleiro ": {
-                "KM": "KM 159",
-                "Mao": "Itapetininga - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Siqueleiro  2": {
-                "KM": "KM 159",
-                "Mao": "Itapetininga - Oeste",
-                "Servicos": [
-                    "Alimentação",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Camarão ": {
-                "KM": "KM 165",
-                "Mao": "Itapetininga - Oeste",
-                "Servicos": [
-                    "Alimentação",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Posto Siqueleiro Bela Vista ": {
-                "KM": "KM 167.50",
-                "Mao": "Itapetininga - Oeste",
-                "Servicos": [
-                    "Alimentação",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            },
-            "Auto Posto Alciate ": {
-                "KM": "KM 168.50",
-                "Mao": "Itapetininga - Leste",
-                "Servicos": [
-                    "Alimentação",
-                    "Autoelétrica",
-                    "Borracharia",
-                    "Ponto de Parada",
-                    "Postos de Serviços"
-                ]
-            }
-        },
-        "SP 280": {
-            "Posto Castelo ": {
+        "Rodovia": "SP 280",
+        "Estabelecimentos": [
+            {
+                "Nome": "Posto Castelo ",
                 "KM": "KM 143",
-                "Mao": "Cesário Lange - Leste",
-                "Servicos": [
+                "Sentido": "Cesário Lange - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Frango Assado": {
+            {
+                "Nome": "Posto Frango Assado",
                 "KM": "KM 146",
-                "Mao": "Cesário Lange - Oeste",
-                "Servicos": [
+                "Sentido": "Cesário Lange - Oeste",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
@@ -1956,38 +1633,42 @@
                     "Postos de Serviços"
                 ]
             },
-            "Rei da Castelo II ": {
+            {
+                "Nome": "Rei da Castelo II ",
                 "KM": "KM 149",
-                "Mao": "Quadra - Leste",
-                "Servicos": [
+                "Sentido": "Quadra - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
                     "Postos de Serviços"
                 ]
             },
-            "Auto Posto Quadra ": {
+            {
+                "Nome": "Auto Posto Quadra ",
                 "KM": "KM 157",
-                "Mao": "Quadra - Leste",
-                "Servicos": [
+                "Sentido": "Quadra - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Rodoserv Star ": {
+            {
+                "Nome": "Posto Rodoserv Star ",
                 "KM": "KM 191",
-                "Mao": "Pardinho - Leste",
-                "Servicos": [
+                "Sentido": "Pardinho - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Rodoserv Stop ": {
+            {
+                "Nome": "Posto Rodoserv Stop ",
                 "KM": "KM 193",
-                "Mao": "Pardinho - Oeste",
-                "Servicos": [
+                "Sentido": "Pardinho - Oeste",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
@@ -1995,10 +1676,11 @@
                     "Postos de Serviços"
                 ]
             },
-            "Rede Graal Maristela ": {
+            {
+                "Nome": "Rede Graal Maristela ",
                 "KM": "KM 198",
-                "Mao": "Pardinho - Leste",
-                "Servicos": [
+                "Sentido": "Pardinho - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
@@ -2006,19 +1688,21 @@
                     "Postos de Serviços"
                 ]
             },
-            "Posto Rodo Serv Sorriso ": {
+            {
+                "Nome": "Posto Rodo Serv Sorriso ",
                 "KM": "KM 198",
-                "Mao": "Pardinho - Oeste",
-                "Servicos": [
+                "Sentido": "Pardinho - Oeste",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Rodo Rede Bizungão III ": {
+            {
+                "Nome": "Rodo Rede Bizungão III ",
                 "KM": "KM 247.50",
-                "Mao": "Avaré - Leste",
-                "Servicos": [
+                "Sentido": "Avaré - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Autoelétrica",
                     "Borracharia",
@@ -2026,848 +1710,241 @@
                     "Postos de Serviços"
                 ]
             },
-            "Posto Toluca I ": {
+            {
+                "Nome": "Posto Toluca I ",
                 "KM": "KM 265",
-                "Mao": "Cerqueira César - Leste",
-                "Servicos": [
+                "Sentido": "Cerqueira César - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Toluca II ": {
+            {
+                "Nome": "Posto Toluca II ",
                 "KM": "KM 265.15",
-                "Mao": "Cerqueira César - Leste",
-                "Servicos": [
+                "Sentido": "Cerqueira César - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Taquari ": {
+            {
+                "Nome": "Posto Taquari ",
                 "KM": "KM 280",
-                "Mao": "Iaras - Oeste",
-                "Servicos": [
+                "Sentido": "Iaras - Oeste",
+                "Serviços": [
                     "Alimentação",
                     "Borracharia",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Kassis ": {
+            {
+                "Nome": "Posto Kassis ",
                 "KM": "KM 281.50",
-                "Mao": "Iaras - Leste",
-                "Servicos": [
+                "Sentido": "Iaras - Leste",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             },
-            "Posto Plaza": {
+            {
+                "Nome": "Posto Plaza",
                 "KM": "KM 293.60",
-                "Mao": "Águas de Santa Bárbara - Oeste",
-                "Servicos": [
+                "Sentido": "Águas de Santa Bárbara - Oeste",
+                "Serviços": [
                     "Alimentação",
                     "Ponto de Parada",
                     "Postos de Serviços"
                 ]
             }
-        }
+        ]
     },
     "vialagos": {
-        "RJ-124": {
-            "Queijão": {
+        "Rodovia": "RJ-124",
+        "Estabelecimentos": [
+            {
+                "Nome": "Queijão",
                 "KM": "KM 8",
-                "Mao": "Rio Bonito - Norte",
-                "Servicos": [
+                "Sentido": "Rio Bonito - Norte",
+                "Serviços": [
                     "Postos de Serviços"
                 ]
             },
-            "Posto Imbiara": {
+            {
+                "Nome": "Posto Imbiara",
                 "KM": "KM 13",
-                "Mao": "Rio Bonito - Norte",
-                "Servicos": [
+                "Sentido": "Rio Bonito - Norte",
+                "Serviços": [
                     "Postos de Serviços"
                 ]
             },
-            "Praça de Pedágio": {
+            {
+                "Nome": "Praça de Pedágio",
                 "KM": "KM 22",
-                "Mao": "Rio Bonito - Norte",
-                "Servicos": [
+                "Sentido": "Rio Bonito - Norte",
+                "Serviços": [
                     "Tags"
                 ]
             },
-            "Praça de Pedágio 2": {
+            {
+                "Nome": "Praça de Pedágio 2",
                 "KM": "KM 22",
-                "Mao": "Rio Bonito - Sul",
-                "Servicos": [
+                "Sentido": "Rio Bonito - Sul",
+                "Serviços": [
                     "Tags"
                 ]
             },
-            "Shopping Graal": {
+            {
+                "Nome": "Shopping Graal",
                 "KM": "KM 23",
-                "Mao": "Rio Bonito - Norte",
-                "Servicos": [
+                "Sentido": "Rio Bonito - Norte",
+                "Serviços": [
                     "Postos de Serviços"
                 ]
             },
-            "Shopping Graal 2": {
+            {
+                "Nome": "Shopping Graal 2",
                 "KM": "KM 23",
-                "Mao": "Rio Bonito - Sul",
-                "Servicos": [
+                "Sentido": "Rio Bonito - Sul",
+                "Serviços": [
                     "Postos de Serviços"
                 ]
             }
-        }
+        ]
     },
     "viaoeste": {
-        "SP075 - ROD. SENADOR JOSÉ ERMÍRIO DE MORAES": {
-            "Auto Posto Castelinho de Sorocaba": {
-                "KM": "KM 9.40",
-                "Mao": "Sorocaba - NORTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto SuKão": {
-                "KM": "KM 12",
-                "Mao": "Itu - Norte",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            }
-        },
-        "SP270 - ROD. RAPOSO TAVARES": {
-            "Posto BR": {
-                "KM": "KM 39",
-                "Mao": "Cotia - LESTE ",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Ipiranga": {
-                "KM": "KM 42",
-                "Mao": "Vargem Grande Paulista  - M. OESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto RT": {
-                "KM": "KM 43",
-                "Mao": "Vargem Grande Paulista  - M. LESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Shell": {
-                "KM": "KM 44",
-                "Mao": "Vargem Grande Paulista  - M. OESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto BR 2": {
-                "KM": "KM 44.50",
-                "Mao": "Vargem Grande Paulista  - M. LESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto  Shell": {
-                "KM": "KM 44.50",
-                "Mao": "Vargem Grande Paulista  - M. OESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Alaska": {
-                "KM": "KM 57",
-                "Mao": "São Roque - LESTE ",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Mané II": {
-                "KM": "KM 64",
-                "Mao": "Mairinque - LESTE ",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto BR 3": {
-                "KM": "KM 65",
-                "Mao": "Mairinque - OESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Mané Shell": {
-                "KM": "KM 67",
-                "Mao": "Mairinque - LESTE ",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Geral de Fiscalização": {
-                "KM": "KM 73",
-                "Mao": "Alumínio - LESTE ",
-                "Servicos": [
-                    "Kit higiene e alimentação"
-                ]
-            },
-            "Posto BR 4": {
-                "KM": "KM 92",
-                "Mao": "Sorocaba - M. OESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Ipiranga 2": {
-                "KM": "KM 113",
-                "Mao": "Sorocaba - OESTE",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto BR 5": {
-                "KM": "KM 115",
-                "Mao": "Araçoiaba da Serra - LESTE ",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            },
-            "Posto Shell 2": {
-                "KM": "KM 115",
-                "Mao": "Araçoiaba da Serra - RETORNO",
-                "Servicos": [
-                    "Posto de Serviços"
-                ]
-            }
-        },
-        "SP280 - ROD. PRESIDENTE CASTELLO BRANCO ": {
-            "Posto Shell": {
+        "Rodovia": "SP280 - ROD. PRESIDENTE CASTELLO BRANCO ",
+        "Estabelecimentos": [
+            {
+                "Nome": "Posto Shell",
                 "KM": "KM 14",
-                "Mao": "Osasco - M.LESTE",
-                "Servicos": [
+                "Sentido": "Osasco - M.LESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Pedágio": {
+            {
+                "Nome": "Pedágio",
                 "KM": "KM 18",
-                "Mao": "Osasco - OESTE",
-                "Servicos": [
+                "Sentido": "Osasco - OESTE",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Pedágio 2": {
+            {
+                "Nome": "Pedágio 2",
                 "KM": "KM 20",
-                "Mao": "Barueri - LESTE",
-                "Servicos": [
+                "Sentido": "Barueri - LESTE",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Pedágio 3": {
+            {
+                "Nome": "Pedágio 3",
                 "KM": "KM 33",
-                "Mao": "Itapevi - OESTE",
-                "Servicos": [
+                "Sentido": "Itapevi - OESTE",
+                "Serviços": [
                     "TAG"
                 ]
             },
-            "Posto Geral de Fiscalização": {
+            {
+                "Nome": "Posto Geral de Fiscalização",
                 "KM": "KM 41",
-                "Mao": "Santana de Parnaíba - OESTE",
-                "Servicos": [
+                "Sentido": "Santana de Parnaíba - OESTE",
+                "Serviços": [
                     "Kit higiene e alimentação",
                     "Vale refeição"
                 ]
             },
-            "Auto Posto Borssato": {
+            {
+                "Nome": "Auto Posto Borssato",
                 "KM": "KM 48",
-                "Mao": "Araçariguama - OESTE",
-                "Servicos": [
+                "Sentido": "Araçariguama - OESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Auto Posto Graal Tigrão": {
+            {
+                "Nome": "Auto Posto Graal Tigrão",
                 "KM": "KM 53",
-                "Mao": "Araçariguama - OESTE",
-                "Servicos": [
+                "Sentido": "Araçariguama - OESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Posto Parada 1": {
+            {
+                "Nome": "Posto Parada 1",
                 "KM": "KM 56",
-                "Mao": "São Roque - OESTE",
-                "Servicos": [
+                "Sentido": "São Roque - OESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Programa Estrada para Saúde": {
+            {
+                "Nome": "Programa Estrada para Saúde",
                 "KM": "KM 57",
-                "Mao": "São Roque - LESTE",
-                "Servicos": [
+                "Sentido": "São Roque - LESTE",
+                "Serviços": [
                     "Atendimento Médico",
                     "Kit higiene e alimentação"
                 ]
             },
-            "Auto Posto Rodo  60": {
+            {
+                "Nome": "Auto Posto Rodo  60",
                 "KM": "KM 61",
-                "Mao": "São Roque - OESTE",
-                "Servicos": [
+                "Sentido": "São Roque - OESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Posto Doninha": {
+            {
+                "Nome": "Posto Doninha",
                 "KM": "KM 68",
-                "Mao": "Mairinque - OESTE",
-                "Servicos": [
+                "Sentido": "Mairinque - OESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Auto Posto Road. Shopping": {
+            {
+                "Nome": "Auto Posto Road. Shopping",
                 "KM": "KM 72",
-                "Mao": "Itu - OESTE",
-                "Servicos": [
+                "Sentido": "Itu - OESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Auto Posto Frango Assado": {
+            {
+                "Nome": "Auto Posto Frango Assado",
                 "KM": "KM 73",
-                "Mao": "Itu - LESTE",
-                "Servicos": [
+                "Sentido": "Itu - LESTE",
+                "Serviços": [
                     "Posto de Serviços"
                 ]
             },
-            "Pedágio 4": {
+            {
+                "Nome": "Pedágio 4",
                 "KM": "KM 74",
-                "Mao": "Itu - LESTE",
-                "Servicos": [
+                "Sentido": "Itu - LESTE",
+                "Serviços": [
                     "TAG"
                 ]
             }
-        }
+        ]
     },
     "viasul": {
-        "BR-101/RS": {
-            "Posto São João": {
-                "KM": "KM 2",
-                "Mao": "Torres - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Vida": {
-                "KM": "KM 2",
-                "Mao": "Torres - Norte",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Campeiro": {
-                "KM": "KM 2",
-                "Mao": "Torres - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Restaurante"
-                ]
-            },
-            "Posto Belvedere": {
-                "KM": "KM 5",
-                "Mao": "Torres - Norte",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Restaurante Novo Ponto": {
-                "KM": "KM 8",
-                "Mao": "Torres - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Restaurante"
-                ]
-            },
-            "Paradouro 86": {
-                "KM": "KM 13",
-                "Mao": "D.Pedro de Alcântara - Sul",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Base Operacional": {
-                "KM": "KM 15",
-                "Mao": "Dom Pedro de Alcântara - Sul",
-                "Servicos": [
-                    "Atendimentos Médicos",
-                    "Distribuição Kits de Alimentação/Higiene"
-                ]
-            },
-            "Posto Litoral": {
-                "KM": "KM 23",
-                "Mao": "Três Cachoeiras - Sul",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Pedras Brancas": {
-                "KM": "KM 24",
-                "Mao": "Três Cachoeiras - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Comercial Buffon": {
-                "KM": "KM 33",
-                "Mao": "Três Cachoeiras - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Auto Posto Jam": {
-                "KM": "KM 43",
-                "Mao": "Terra de Areia - Sul",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Rota 101": {
-                "KM": "KM 50",
-                "Mao": "Terra de Areia - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Recanto dos Caminhoneiros": {
-                "KM": "KM 51",
-                "Mao": "Terra de Areia - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Restaurante"
-                ]
-            },
-            "Auto Elétrica Play Car": {
-                "KM": "KM 72",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Estacionamento"
-                ]
-            },
-            "Auto Posto Tulio Figueiras": {
-                "KM": "KM 72",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Borracharia Taz": {
-                "KM": "KM 72",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Borracharia",
-                    "Estacionamento"
-                ]
-            },
-            "Borracharia 2 Irmãos": {
-                "KM": "KM 79",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Estacionamento"
-                ]
-            },
-            "Jeito de Casa": {
-                "KM": "KM 79",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Restaurante"
-                ]
-            },
-            "Restaurante 2 Irmãos": {
-                "KM": "KM 79",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Restaurante"
-                ]
-            },
-            "Borracharia Daminelli": {
-                "KM": "KM 81",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Estacionamento"
-                ]
-            },
-            "Castelhano": {
-                "KM": "KM 81",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento"
-                ]
-            },
-            "Comercial Buffon/ Rest. Araújo": {
-                "KM": "KM 82",
-                "Mao": "Osório - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Buffon": {
-                "KM": "KM 82",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Tulio Osório": {
-                "KM": "KM 83",
-                "Mao": "Osório - norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Buffon": {
-                "KM": "KM 84",
-                "Mao": "Osório - Norte",
-                "Servicos": [
-                    "Desinfecção de Cabines de Caminhão",
-                    "Troca de Lâmpadas de Caminhão"
-                ]
-            },
-            "Posto Km 1 / Luzardo": {
-                "KM": "KM 84",
-                "Mao": "Osório - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Dirceu Truck Center": {
-                "KM": "KM 85",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento"
-                ]
-            },
-            "Luzardo": {
-                "KM": "KM 85",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Restaurante"
-                ]
-            },
-            "Recap Pneus": {
-                "KM": "KM 85",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Estacionamento"
-                ]
-            },
-            "Posto Querência": {
-                "KM": "KM 86",
-                "Mao": "Osório - Norte",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Chile Pneus": {
-                "KM": "KM 86",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento"
-                ]
-            },
-            "Posto Chimarrão": {
-                "KM": "KM 86",
-                "Mao": "Osório - Sul",
-                "Servicos": [
-                    "Auto Elétrica",
-                    "Banheiro",
-                    "Borracharia",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Buffon 2": {
-                "KM": "KM 87",
-                "Mao": "Osório - Norte",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            }
-        },
-        "BR-290/RS": {
-            "Posto Maravilha - Mecânica Dema": {
-                "KM": "KM 1",
-                "Mao": "Osório - Leste",
-                "Servicos": [
-                    "Banheiro",
-                    "Chuveiro",
-                    "Estacionamento",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            },
-            "Borracharia Fernandes": {
-                "KM": "KM 26",
-                "Mao": "Santo Antonio de Patrulha - Oeste",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Estacionamento"
-                ]
-            },
-            "Borracharia Fernandes 2": {
-                "KM": "KM 53",
-                "Mao": "Glorinha - Oeste",
-                "Servicos": [
-                    "Banheiro",
-                    "Borracharia",
-                    "Estacionamento"
-                ]
-            },
-            "Posto SIM Freeway": {
-                "KM": "KM 69",
-                "Mao": "Gravataí - Oeste",
-                "Servicos": [
-                    "Vale-refeição"
-                ]
-            },
-            "Posto Radar": {
-                "KM": "KM 75",
-                "Mao": "Gravataí - Oeste",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            },
-            "Base Operacional": {
-                "KM": "KM 77",
-                "Mao": "Gravataí - Oeste",
-                "Servicos": [
-                    "Atendimentos Médicos",
-                    "Distribuição Kits de Alimentação/Higiene"
-                ]
-            },
-            "Posto GRAAL Rota 80": {
-                "KM": "KM 80",
-                "Mao": "Gravataí - Leste",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível",
-                    "Restaurante"
-                ]
-            },
-            "Posto Graal Rota 80": {
-                "KM": "KM 80",
-                "Mao": "Porto Alegre - Leste",
-                "Servicos": [
-                    "Desinfecção de Cabines de Caminhão",
-                    "Troca de Lâmpadas de Caminhão",
-                    "Vale-refeição"
-                ]
-            },
-            "Posto Freeway": {
-                "KM": "KM 83",
-                "Mao": "Cachoeirinha - Oeste",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            },
-            "Posto Fiergs": {
-                "KM": "KM 85",
-                "Mao": "Porto Alegre - Leste",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            },
-            "Posto Savar": {
-                "KM": "KM 92",
-                "Mao": "Porto Alegre - Leste",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            },
-            "Posto Kabana": {
-                "KM": "KM 92",
-                "Mao": "Porto Alegre - Oeste",
-                "Servicos": [
-                    "Banheiro",
-                    "Estacionamento",
-                    "Lancheria",
-                    "Loja de conveniência",
-                    "Posto de combustível"
-                ]
-            }
-        },
-        "BR-386/RS": {
-            "RH Riss Combustiveis": {
+        "Rodovia": "BR-386/RS",
+        "Estabelecimentos": [
+            {
+                "Nome": "RH Riss Combustiveis",
                 "KM": "KM 178",
-                "Mao": "Carazinho - Norte",
-                "Servicos": [
+                "Sentido": "Carazinho - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -2879,10 +1956,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Buffon": {
+            {
+                "Nome": "Posto Buffon",
                 "KM": "KM 180",
-                "Mao": "Carazinho - Sul",
-                "Servicos": [
+                "Sentido": "Carazinho - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -2893,10 +1971,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Posto Santo Antonio": {
+            {
+                "Nome": "Posto Santo Antonio",
                 "KM": "KM 190",
-                "Mao": "Santo Antonio Planalto - Norte",
-                "Servicos": [
+                "Sentido": "Santo Antonio Planalto - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -2905,10 +1984,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Posto Rota do Sul": {
+            {
+                "Nome": "Posto Rota do Sul",
                 "KM": "KM 213",
-                "Mao": "Tio Hugo - Norte",
-                "Servicos": [
+                "Sentido": "Tio Hugo - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -2919,20 +1999,22 @@
                     "Posto de combustível"
                 ]
             },
-            "Restaurante Rota do Sul": {
+            {
+                "Nome": "Restaurante Rota do Sul",
                 "KM": "KM 213",
-                "Mao": "Tio Hugo - Norte",
-                "Servicos": [
+                "Sentido": "Tio Hugo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Abastecedora de Combustivel Remma": {
+            {
+                "Nome": "Abastecedora de Combustivel Remma",
                 "KM": "KM 214",
-                "Mao": "Tio Hugo - Norte",
-                "Servicos": [
+                "Sentido": "Tio Hugo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -2941,20 +2023,22 @@
                     "Posto de combustível"
                 ]
             },
-            "Restaurante Itallians": {
+            {
+                "Nome": "Restaurante Itallians",
                 "KM": "KM 242",
-                "Mao": "Soledade - Norte",
-                "Servicos": [
+                "Sentido": "Soledade - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Nevoeiro": {
+            {
+                "Nome": "Posto Nevoeiro",
                 "KM": "KM 243",
-                "Mao": "Soledade - Norte",
-                "Servicos": [
+                "Sentido": "Soledade - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -2967,10 +2051,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto da Dona Adélia": {
+            {
+                "Nome": "Posto da Dona Adélia",
                 "KM": "KM 245",
-                "Mao": "Soledade - Norte",
-                "Servicos": [
+                "Sentido": "Soledade - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -2979,10 +2064,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Posto Tradição": {
+            {
+                "Nome": "Posto Tradição",
                 "KM": "KM 245",
-                "Mao": "Soledade - Norte",
-                "Servicos": [
+                "Sentido": "Soledade - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -2994,10 +2080,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Rochemcack": {
+            {
+                "Nome": "Posto Rochemcack",
                 "KM": "KM 246",
-                "Mao": "Soledade - Sul",
-                "Servicos": [
+                "Sentido": "Soledade - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3008,20 +2095,22 @@
                     "Restaurante"
                 ]
             },
-            "Café Colonial e Restaurante 255": {
+            {
+                "Nome": "Café Colonial e Restaurante 255",
                 "KM": "KM 255",
-                "Mao": "Soledade - Sul",
-                "Servicos": [
+                "Sentido": "Soledade - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Paradouro Parque das Tuias": {
+            {
+                "Nome": "Paradouro Parque das Tuias",
                 "KM": "KM 257",
-                "Mao": "Soledade - Norte",
-                "Servicos": [
+                "Sentido": "Soledade - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3030,10 +2119,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto RH Riss": {
+            {
+                "Nome": "Posto RH Riss",
                 "KM": "KM 268",
-                "Mao": "Fontoura Xavier - Norte",
-                "Servicos": [
+                "Sentido": "Fontoura Xavier - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3046,10 +2136,11 @@
                     "Troca de Lâmpadas de Caminhão"
                 ]
             },
-            "Posto Gauchão": {
+            {
+                "Nome": "Posto Gauchão",
                 "KM": "KM 269",
-                "Mao": "Fontoura Xavier - Sul",
-                "Servicos": [
+                "Sentido": "Fontoura Xavier - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3059,10 +2150,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Posto Jonare": {
+            {
+                "Nome": "Posto Jonare",
                 "KM": "KM 280",
-                "Mao": "São José do Herval - Norte",
-                "Servicos": [
+                "Sentido": "São José do Herval - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3074,10 +2166,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Charrua / Hotel Frozza": {
+            {
+                "Nome": "Posto Charrua / Hotel Frozza",
                 "KM": "KM 283",
-                "Mao": "São José do Herval - Sul",
-                "Servicos": [
+                "Sentido": "São José do Herval - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3087,10 +2180,11 @@
                     "Restaurante"
                 ]
             },
-            "Hotel/ Churrascaria do Gringo": {
+            {
+                "Nome": "Hotel/ Churrascaria do Gringo",
                 "KM": "KM 297",
-                "Mao": "Pouso Novo - Sul",
-                "Servicos": [
+                "Sentido": "Pouso Novo - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3099,10 +2193,11 @@
                     "Restaurante"
                 ]
             },
-            "Churrascaria os Piás do Gringo": {
+            {
+                "Nome": "Churrascaria os Piás do Gringo",
                 "KM": "KM 298",
-                "Mao": "Pouso Novo - Norte",
-                "Servicos": [
+                "Sentido": "Pouso Novo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3110,10 +2205,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto do Gringo": {
+            {
+                "Nome": "Posto do Gringo",
                 "KM": "KM 298",
-                "Mao": "Pouso Novo - Norte",
-                "Servicos": [
+                "Sentido": "Pouso Novo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3122,10 +2218,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Posto Bozeti": {
+            {
+                "Nome": "Posto Bozeti",
                 "KM": "KM 300",
-                "Mao": "Pouso Novo - Sul",
-                "Servicos": [
+                "Sentido": "Pouso Novo - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3135,10 +2232,11 @@
                     "Restaurante"
                 ]
             },
-            "Sabor Caseiro": {
+            {
+                "Nome": "Sabor Caseiro",
                 "KM": "KM 319",
-                "Mao": "Marques de Souza - Norte",
-                "Servicos": [
+                "Sentido": "Marques de Souza - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3146,20 +2244,22 @@
                     "Restaurante"
                 ]
             },
-            "Churrascaria e Lancheria No Ponto": {
+            {
+                "Nome": "Churrascaria e Lancheria No Ponto",
                 "KM": "KM 321",
-                "Mao": "Marques de Souza - Norte",
-                "Servicos": [
+                "Sentido": "Marques de Souza - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Sul Max": {
+            {
+                "Nome": "Posto Sul Max",
                 "KM": "KM 324",
-                "Mao": "Marques de Souza - Norte",
-                "Servicos": [
+                "Sentido": "Marques de Souza - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3170,10 +2270,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Marques Restaurante e Hotel": {
+            {
+                "Nome": "Marques Restaurante e Hotel",
                 "KM": "KM 324",
-                "Mao": "Marques de Souza - Sul",
-                "Servicos": [
+                "Sentido": "Marques de Souza - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3182,10 +2283,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Marques de Souza": {
+            {
+                "Nome": "Posto Marques de Souza",
                 "KM": "KM 324",
-                "Mao": "Marques de Souza - Sul",
-                "Servicos": [
+                "Sentido": "Marques de Souza - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3196,20 +2298,22 @@
                     "Restaurante"
                 ]
             },
-            "Restaurante e Lancheria 111": {
+            {
+                "Nome": "Restaurante e Lancheria 111",
                 "KM": "KM 333",
-                "Mao": "Marques de Souza - Norte",
-                "Servicos": [
+                "Sentido": "Marques de Souza - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "O Panelão": {
+            {
+                "Nome": "O Panelão",
                 "KM": "KM 341",
-                "Mao": "Lajeado - Norte",
-                "Servicos": [
+                "Sentido": "Lajeado - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3217,10 +2321,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Codorna": {
+            {
+                "Nome": "Posto Codorna",
                 "KM": "KM 341",
-                "Mao": "Lajeado - Sul",
-                "Servicos": [
+                "Sentido": "Lajeado - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3230,10 +2335,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Nevoeiro 2": {
+            {
+                "Nome": "Posto Nevoeiro 2",
                 "KM": "KM 341",
-                "Mao": "Lajeado - Sul",
-                "Servicos": [
+                "Sentido": "Lajeado - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3245,38 +2351,42 @@
                     "Restaurante"
                 ]
             },
-            "Restaurante e Lancheria Perdigão": {
+            {
+                "Nome": "Restaurante e Lancheria Perdigão",
                 "KM": "KM 341",
-                "Mao": "Lajeado - Sul",
-                "Servicos": [
+                "Sentido": "Lajeado - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Base Operacional": {
+            {
+                "Nome": "Base Operacional",
                 "KM": "KM 347",
-                "Mao": "Estrela - Norte",
-                "Servicos": [
+                "Sentido": "Estrela - Norte",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Distribuição Kits de Alimentação/Higiene"
                 ]
             },
-            "Churrascaria Boi e Brasa": {
+            {
+                "Nome": "Churrascaria Boi e Brasa",
                 "KM": "KM 348",
-                "Mao": "Lajeado - Norte",
-                "Servicos": [
+                "Sentido": "Lajeado - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Floresta": {
+            {
+                "Nome": "Posto Floresta",
                 "KM": "KM 348",
-                "Mao": "Lajeado - Norte",
-                "Servicos": [
+                "Sentido": "Lajeado - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3287,10 +2397,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Comercial Buffon": {
+            {
+                "Nome": "Comercial Buffon",
                 "KM": "KM 351",
-                "Mao": "Estrela - Norte",
-                "Servicos": [
+                "Sentido": "Estrela - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3303,10 +2414,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Le Premier": {
+            {
+                "Nome": "Posto Le Premier",
                 "KM": "KM 358",
-                "Mao": "Estrela - Sul",
-                "Servicos": [
+                "Sentido": "Estrela - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3316,10 +2428,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Formula": {
+            {
+                "Nome": "Posto Formula",
                 "KM": "KM 365",
-                "Mao": "Fazenda Vila Nova - Sul",
-                "Servicos": [
+                "Sentido": "Fazenda Vila Nova - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Estacionamento",
@@ -3329,20 +2442,22 @@
                     "Restaurante"
                 ]
             },
-            "Restaurante e Lancheria Britinho": {
+            {
+                "Nome": "Restaurante e Lancheria Britinho",
                 "KM": "KM 371",
-                "Mao": "Fazenda Vila Nova - Sul",
-                "Servicos": [
+                "Sentido": "Fazenda Vila Nova - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Rosinha": {
+            {
+                "Nome": "Posto Rosinha",
                 "KM": "KM 373",
-                "Mao": "Paverama - Norte",
-                "Servicos": [
+                "Sentido": "Paverama - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3350,10 +2465,11 @@
                     "Posto de combustível"
                 ]
             },
-            "Restaurante Rosinha": {
+            {
+                "Nome": "Restaurante Rosinha",
                 "KM": "KM 373",
-                "Mao": "Paverama - Norte",
-                "Servicos": [
+                "Sentido": "Paverama - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3361,10 +2477,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Rosinha 2": {
+            {
+                "Nome": "Posto Rosinha 2",
                 "KM": "KM 373",
-                "Mao": "Paverama - Sul",
-                "Servicos": [
+                "Sentido": "Paverama - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3373,18 +2490,20 @@
                     "Restaurante"
                 ]
             },
-            "Posto Rosinha 3": {
+            {
+                "Nome": "Posto Rosinha 3",
                 "KM": "KM 374",
-                "Mao": "Paverama - Sul",
-                "Servicos": [
+                "Sentido": "Paverama - Sul",
+                "Serviços": [
                     "Desinfecção de Cabines de Caminhão",
                     "Troca de Lâmpadas de Caminhão"
                 ]
             },
-            "Posto Rede Energia": {
+            {
+                "Nome": "Posto Rede Energia",
                 "KM": "KM 385",
-                "Mao": "Tabaí - Norte",
-                "Servicos": [
+                "Sentido": "Tabaí - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3393,20 +2512,22 @@
                     "Posto de combustível"
                 ]
             },
-            "Restaurante e Churrascaria Palhoça": {
+            {
+                "Nome": "Restaurante e Churrascaria Palhoça",
                 "KM": "KM 385",
-                "Mao": "Tabaí - Norte",
-                "Servicos": [
+                "Sentido": "Tabaí - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Rede Energia Posto 28": {
+            {
+                "Nome": "Rede Energia Posto 28",
                 "KM": "KM 385",
-                "Mao": "Tabaí - Sul",
-                "Servicos": [
+                "Sentido": "Tabaí - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3418,30 +2539,33 @@
                     "Restaurante"
                 ]
             },
-            "Churrascaria Sobradinho": {
+            {
+                "Nome": "Churrascaria Sobradinho",
                 "KM": "KM 388",
-                "Mao": "Triunfo - Norte",
-                "Servicos": [
+                "Sentido": "Triunfo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Restaurante e Lancheria Raraelli": {
+            {
+                "Nome": "Restaurante e Lancheria Raraelli",
                 "KM": "KM 388",
-                "Mao": "Triunfo - Norte",
-                "Servicos": [
+                "Sentido": "Triunfo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Radar": {
+            {
+                "Nome": "Posto Radar",
                 "KM": "KM 388",
-                "Mao": "Triunfo - Sul",
-                "Servicos": [
+                "Sentido": "Triunfo - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3453,20 +2577,22 @@
                     "Restaurante"
                 ]
             },
-            "Restaurante Churrascaria Coxilha Velha": {
+            {
+                "Nome": "Restaurante Churrascaria Coxilha Velha",
                 "KM": "KM 388",
-                "Mao": "Triunfo - Sul",
-                "Servicos": [
+                "Sentido": "Triunfo - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Hotel e Churrascaria Paladar": {
+            {
+                "Nome": "Hotel e Churrascaria Paladar",
                 "KM": "KM 391",
-                "Mao": "Triunfo - Norte",
-                "Servicos": [
+                "Sentido": "Triunfo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3476,10 +2602,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Pioneiro": {
+            {
+                "Nome": "Posto Pioneiro",
                 "KM": "KM 392",
-                "Mao": "Triunfo - Norte",
-                "Servicos": [
+                "Sentido": "Triunfo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Chuveiro",
                     "Estacionamento",
@@ -3487,30 +2614,33 @@
                     "Posto de combustível"
                 ]
             },
-            "Restaurante e Churrascaria FC": {
+            {
+                "Nome": "Restaurante e Churrascaria FC",
                 "KM": "KM 392",
-                "Mao": "Triunfo - Norte",
-                "Servicos": [
+                "Sentido": "Triunfo - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Restaurante Camarote": {
+            {
+                "Nome": "Restaurante Camarote",
                 "KM": "KM 404",
-                "Mao": "Montenegro - Sul",
-                "Servicos": [
+                "Sentido": "Montenegro - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Vendinha": {
+            {
+                "Nome": "Posto Vendinha",
                 "KM": "KM 411",
-                "Mao": "Montenegro - Norte",
-                "Servicos": [
+                "Sentido": "Montenegro - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3521,10 +2651,11 @@
                     "Restaurante"
                 ]
             },
-            "Comercial Buffon 2": {
+            {
+                "Nome": "Comercial Buffon 2",
                 "KM": "KM 414",
-                "Mao": "Montenegro - Sul",
-                "Servicos": [
+                "Sentido": "Montenegro - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3535,10 +2666,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto 27": {
+            {
+                "Nome": "Posto 27",
                 "KM": "KM 417",
-                "Mao": "Montenegro - Norte",
-                "Servicos": [
+                "Sentido": "Montenegro - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3548,30 +2680,33 @@
                     "Restaurante"
                 ]
             },
-            "Restaurante e Churrascaria Paradouro": {
+            {
+                "Nome": "Restaurante e Churrascaria Paradouro",
                 "KM": "KM 419",
-                "Mao": "Montenegro - Sul",
-                "Servicos": [
+                "Sentido": "Montenegro - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Restaurante e Lancheria 23": {
+            {
+                "Nome": "Restaurante e Lancheria 23",
                 "KM": "KM 423",
-                "Mao": "Montenegro - Norte",
-                "Servicos": [
+                "Sentido": "Montenegro - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Lancheria",
                     "Restaurante"
                 ]
             },
-            "Posto Polo Sul": {
+            {
+                "Nome": "Posto Polo Sul",
                 "KM": "KM 425",
-                "Mao": "Montenegro - Norte",
-                "Servicos": [
+                "Sentido": "Montenegro - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3583,18 +2718,20 @@
                     "Restaurante"
                 ]
             },
-            "Base Operacional 2": {
+            {
+                "Nome": "Base Operacional 2",
                 "KM": "KM 432",
-                "Mao": "Nova Santa Rita - Sul",
-                "Servicos": [
+                "Sentido": "Nova Santa Rita - Sul",
+                "Serviços": [
                     "Atendimentos Médicos",
                     "Distribuição Kits de Alimentação/Higiene"
                 ]
             },
-            "Posto Valentina": {
+            {
+                "Nome": "Posto Valentina",
                 "KM": "KM 433",
-                "Mao": "Nova Santa Rita - Sul",
-                "Servicos": [
+                "Sentido": "Nova Santa Rita - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3606,10 +2743,11 @@
                     "Restaurante"
                 ]
             },
-            "Buffon 10": {
+            {
+                "Nome": "Buffon 10",
                 "KM": "KM 435",
-                "Mao": "Nova Santa Rita - Norte",
-                "Servicos": [
+                "Sentido": "Nova Santa Rita - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3621,10 +2759,11 @@
                     "Restaurante"
                 ]
             },
-            "Sim Rede Nova Santa Rita": {
+            {
+                "Nome": "Sim Rede Nova Santa Rita",
                 "KM": "KM 435",
-                "Mao": "Nova Santa Rita - Sul",
-                "Servicos": [
+                "Sentido": "Nova Santa Rita - Sul",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3636,10 +2775,11 @@
                     "Restaurante"
                 ]
             },
-            "Posto Canarinho": {
+            {
+                "Nome": "Posto Canarinho",
                 "KM": "KM 436",
-                "Mao": "Nova Santa Rita - Sul",
-                "Servicos": [
+                "Sentido": "Nova Santa Rita - Sul",
+                "Serviços": [
                     "Banheiro",
                     "Borracharia",
                     "Chuveiro",
@@ -3650,10 +2790,11 @@
                     "Restaurante"
                 ]
             },
-            "Com. Buffon/ Rest. E Lancheria Grenas": {
+            {
+                "Nome": "Com. Buffon/ Rest. E Lancheria Grenas",
                 "KM": "KM 438",
-                "Mao": "Nova Santa Rita - norte",
-                "Servicos": [
+                "Sentido": "Nova Santa Rita - norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3665,10 +2806,11 @@
                     "Restaurante"
                 ]
             },
-            "Rede Energia": {
+            {
+                "Nome": "Rede Energia",
                 "KM": "KM 441",
-                "Mao": "Canoas - Norte",
-                "Servicos": [
+                "Sentido": "Canoas - Norte",
+                "Serviços": [
                     "Auto Elétrica",
                     "Banheiro",
                     "Borracharia",
@@ -3680,15 +2822,16 @@
                     "Restaurante"
                 ]
             },
-            "Restaurante Salton": {
+            {
+                "Nome": "Restaurante Salton",
                 "KM": "KM 442",
-                "Mao": "Canoas - Norte",
-                "Servicos": [
+                "Sentido": "Canoas - Norte",
+                "Serviços": [
                     "Banheiro",
                     "Estacionamento",
                     "Restaurante"
                 ]
             }
-        }
+        ]
     }
 }

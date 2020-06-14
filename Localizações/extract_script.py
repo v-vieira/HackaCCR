@@ -6,7 +6,7 @@ def ext_to_dict(soup_object,id):
     rod_div  = soup_object.find("div",{"id":id})
     rod_items = rod_div.find_all("div",{"class":"attendance-table-item"})
     
-    dic = {}
+    vec = []
     already = {}
     for box in rod_items:
         head = box.h3.contents
@@ -15,24 +15,27 @@ def ext_to_dict(soup_object,id):
         mao = head[1].contents[0]
         titulo = head[3].contents[0]
         servicos = []
+
         for s in services:
             servicos.append(s.contents[0].contents[0])
         if titulo in already:
             already[titulo] +=1
             titulo = ' '.join([titulo,str(already[titulo])])
-            dic[titulo] = {
-            "KM":km,
-            "Mao" : mao,
-            "Servicos" : servicos
-            }
+            vec.append({
+                'Nome': titulo,
+                'KM' : km,
+                'Sentido': mao,
+                'Serviços': servicos
+            })
         else:
             already[titulo]=1
-            dic[titulo]={
-            "KM":km,
-            "Mao" : mao,
-            "Servicos" : servicos
-            }
-    return dic
+            vec.append({
+                'Nome': titulo,
+                'KM' : km,
+                'Sentido': mao,
+                'Serviços': servicos
+            })
+    return vec
 
 
 def file_dic(file_input):
@@ -48,7 +51,8 @@ def file_dic(file_input):
 
     rod_pontos = {}
     for rod in rod_id:
-        rod_pontos[rod_id[rod]] = ext_to_dict(soup,rod)
+        rod_pontos['Rodovia'] = rod_id[rod]
+        rod_pontos['Estabelecimentos'] = ext_to_dict(soup,rod)
     
     return rod_pontos
 
